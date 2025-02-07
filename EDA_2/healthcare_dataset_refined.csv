@@ -1,0 +1,1001 @@
+patient_id,name,age,gender,height,weight,bmi,blood_pressure_sys,blood_pressure_dia,heart_rate,cholesterol_level,glucose_level,smoking_status,exercise_frequency,admission_date,discharge_date,disease_history,family_history,doctor_id,hospital_id
+P0001,Patient_1,37,Female,145,66,26.3,117,107,85,179,136,Never,High,2023-01-01,2023-01-02,Diabetes,Heart Disease,D017,H17
+P0002,Patient_2,73,Female,168,56,23.8,132,86,94,256,147,Current,High,2023-01-02,2023-01-03,Heart Disease,Cancer,D014,H08
+P0003,Patient_3,72,Female,148,100,33.0,137,95,89,269,125,Never,High,2023-01-03,2023-01-04,None,Heart Disease,D035,H12
+P0004,Patient_4,85,Female,144,114,26.8,95,118,94,160,96,Current,High,2023-01-04,2023-01-05,Hypertension,Heart Disease,D038,H19
+P0005,Patient_5,41,Female,186,119,31.3,154,92,63,168,125,Former,Moderate,2023-01-05,2023-01-06,Diabetes,Hypertension,D003,H13
+P0006,Patient_6,39,Male,158,43,37.5,122,110,66,201,82,Never,None,2023-01-06,2023-01-07,Diabetes,Heart Disease,D049,H16
+P0007,Patient_7,45,Male,169,107,18.9,156,72,82,192,196,Never,Low,2023-01-07,2023-01-08,Heart Disease,None,D012,H08
+P0008,Patient_8,33,Male,193,45,29.6,174,103,62,293,169,Former,None,2023-01-08,2023-01-09,Asthma,Hypertension,D025,H12
+P0009,Patient_9,83,Female,196,71,20.3,149,71,68,288,176,Current,Low,2023-01-09,2023-01-10,Hypertension,Hypertension,D016,H07
+P0010,Patient_10,18,Female,167,42,26.7,124,104,89,207,165,Never,High,2023-01-10,2023-01-11,Hypertension,Cancer,D016,H05
+P0011,Patient_11,78,Female,143,91,29.2,128,96,98,192,164,Never,Low,2023-01-11,2023-01-12,Heart Disease,None,D031,H19
+P0012,Patient_12,54,Female,178,91,24.9,94,88,60,236,108,Current,High,2023-01-12,2023-01-13,Hypertension,Heart Disease,D004,H11
+P0013,Patient_13,71,Male,161,76,25.5,142,88,81,222,153,Former,Low,2023-01-13,2023-01-14,None,Hypertension,D031,H06
+P0014,Patient_14,36,Male,179,90,31.3,122,99,89,118,197,Current,Moderate,2023-01-14,2023-01-15,Heart Disease,Diabetes,D048,H14
+P0015,Patient_15,19,Male,182,61,24.7,103,73,93,116,147,Never,Low,2023-01-15,2023-01-16,Hypertension,Heart Disease,D008,H16
+P0016,Patient_16,40,Male,150,103,19.9,124,96,98,266,179,Current,Low,2023-01-16,2023-01-17,Heart Disease,None,D049,H13
+P0017,Patient_17,87,Female,184,102,30.2,134,118,80,121,144,Former,High,2023-01-17,2023-01-18,Heart Disease,Diabetes,D047,H08
+P0018,Patient_18,29,Female,173,54,28.7,133,106,60,144,183,Current,Moderate,2023-01-18,2023-01-19,Diabetes,Heart Disease,D040,H13
+P0019,Patient_19,21,Male,193,75,18.5,155,68,68,149,114,Current,Moderate,2023-01-19,2023-01-20,Heart Disease,Cancer,D031,H09
+P0020,Patient_20,26,Female,187,81,21.0,174,66,75,277,195,Current,Moderate,2023-01-20,2023-01-21,Heart Disease,Diabetes,D027,H18
+P0021,Patient_21,77,Male,175,61,32.5,151,85,73,263,156,Former,High,2023-01-21,2023-01-22,Diabetes,Diabetes,D007,H15
+P0022,Patient_22,88,Female,181,55,23.0,158,93,83,122,98,Former,Moderate,2023-01-22,2023-01-23,Heart Disease,None,D005,H06
+P0023,Patient_23,58,Female,159,62,21.1,157,67,99,154,134,Never,Low,2023-01-23,2023-01-24,Heart Disease,Hypertension,D004,H18
+P0024,Patient_24,67,Female,190,81,35.2,168,60,67,180,113,Never,Moderate,2023-01-24,2023-01-25,Hypertension,Hypertension,D027,H12
+P0025,Patient_25,84,Female,177,104,28.1,173,81,93,266,147,Never,High,2023-01-25,2023-01-26,Diabetes,Heart Disease,D024,H04
+P0026,Patient_26,42,Male,198,51,20.7,97,117,69,206,131,Former,Low,2023-01-26,2023-01-27,Asthma,Heart Disease,D004,H03
+P0027,Patient_27,20,Male,174,54,35.8,92,110,72,278,136,Former,None,2023-01-27,2023-01-28,Hypertension,Diabetes,D014,H08
+P0028,Patient_28,50,Male,192,69,38.8,125,73,89,185,189,Current,None,2023-01-28,2023-01-29,None,Diabetes,D021,H19
+P0029,Patient_29,82,Female,168,82,26.4,153,67,74,238,199,Never,Low,2023-01-29,2023-01-30,Heart Disease,Diabetes,D010,H17
+P0030,Patient_30,28,Female,175,69,28.4,160,112,71,282,115,Current,None,2023-01-30,2023-01-31,Diabetes,Heart Disease,D043,H11
+P0031,Patient_31,62,Female,146,73,25.7,98,112,95,276,157,Current,Low,2023-01-31,2023-02-01,Hypertension,None,D018,H04
+P0032,Patient_32,30,Male,146,82,27.3,178,117,65,272,188,Never,Low,2023-02-01,2023-02-02,Asthma,None,D004,H02
+P0033,Patient_33,60,Male,142,43,33.8,108,90,60,181,132,Never,Low,2023-02-02,2023-02-03,Heart Disease,Diabetes,D028,H09
+P0034,Patient_34,42,Female,160,112,27.1,125,68,86,117,143,Former,None,2023-02-03,2023-02-04,Diabetes,Heart Disease,D014,H02
+P0035,Patient_35,66,Male,187,112,21.8,169,102,65,174,141,Former,None,2023-02-04,2023-02-05,Heart Disease,Diabetes,D021,H17
+P0036,Patient_36,63,Male,192,40,24.1,127,81,95,221,122,Never,None,2023-02-05,2023-02-06,Hypertension,Diabetes,D034,H16
+P0037,Patient_37,83,Male,151,107,22.0,96,118,69,154,80,Never,High,2023-02-06,2023-02-07,Hypertension,Cancer,D034,H15
+P0038,Patient_38,21,Female,142,48,21.6,121,119,72,145,97,Former,High,2023-02-07,2023-02-08,Heart Disease,Diabetes,D039,H11
+P0039,Patient_39,19,Male,143,50,33.8,104,88,68,207,127,Current,None,2023-02-08,2023-02-09,Diabetes,Diabetes,D042,H10
+P0040,Patient_40,48,Female,191,85,36.6,140,68,71,256,148,Current,None,2023-02-09,2023-02-10,Asthma,Hypertension,D007,H11
+P0041,Patient_41,27,Male,169,104,18.8,92,69,94,161,154,Never,None,2023-02-10,2023-02-11,Hypertension,None,D016,H01
+P0042,Patient_42,88,Male,146,76,35.6,160,93,76,194,176,Current,Moderate,2023-02-11,2023-02-12,Heart Disease,Diabetes,D039,H01
+P0043,Patient_43,39,Female,171,112,37.2,156,61,64,193,147,Current,None,2023-02-12,2023-02-13,Asthma,Diabetes,D015,H02
+P0044,Patient_44,42,Female,183,67,32.3,96,70,65,194,194,Former,Low,2023-02-13,2023-02-14,None,Cancer,D048,H13
+P0045,Patient_45,75,Female,199,93,23.4,105,61,72,231,179,Never,None,2023-02-14,2023-02-15,Asthma,Hypertension,D031,H17
+P0046,Patient_46,59,Female,183,41,27.6,95,81,84,151,111,Never,Moderate,2023-02-15,2023-02-16,Diabetes,Cancer,D040,H06
+P0047,Patient_47,71,Female,198,89,33.0,121,70,74,118,176,Former,Moderate,2023-02-16,2023-02-17,Diabetes,Heart Disease,D038,H14
+P0048,Patient_48,19,Male,166,80,30.5,145,67,93,261,142,Current,Low,2023-02-17,2023-02-18,Heart Disease,None,D032,H04
+P0049,Patient_49,49,Female,151,79,33.4,160,76,71,294,140,Current,Low,2023-02-18,2023-02-19,Hypertension,Diabetes,D045,H09
+P0050,Patient_50,75,Male,174,66,33.2,94,109,72,193,163,Never,High,2023-02-19,2023-02-20,None,Diabetes,D023,H19
+P0051,Patient_51,76,Male,194,59,30.3,173,101,62,174,132,Current,None,2023-02-20,2023-02-21,None,Diabetes,D002,H15
+P0052,Patient_52,51,Female,164,61,30.3,109,85,78,219,190,Never,High,2023-02-21,2023-02-22,Hypertension,Diabetes,D017,H04
+P0053,Patient_53,79,Female,155,56,31.3,174,89,90,155,158,Never,Low,2023-02-22,2023-02-23,Asthma,Heart Disease,D034,H19
+P0054,Patient_54,35,Female,141,83,28.1,111,80,73,206,158,Never,High,2023-02-23,2023-02-24,None,Heart Disease,D003,H03
+P0055,Patient_55,53,Female,148,105,34.9,162,74,97,140,119,Never,High,2023-02-24,2023-02-25,Hypertension,Cancer,D020,H14
+P0056,Patient_56,31,Female,166,65,27.4,142,103,85,188,90,Current,High,2023-02-25,2023-02-26,None,None,D046,H13
+P0057,Patient_57,37,Male,173,102,35.4,169,89,84,170,118,Current,Low,2023-02-26,2023-02-27,None,Heart Disease,D043,H03
+P0058,Patient_58,36,Male,164,51,19.0,97,93,84,141,197,Never,None,2023-02-27,2023-02-28,Asthma,None,D016,H18
+P0059,Patient_59,69,Female,165,83,32.1,154,76,90,165,184,Current,None,2023-02-28,2023-03-01,Asthma,None,D003,H02
+P0060,Patient_60,53,Male,199,77,39.4,92,102,61,287,163,Never,Low,2023-03-01,2023-03-02,Hypertension,Hypertension,D008,H01
+P0061,Patient_61,65,Female,151,103,23.4,136,89,98,208,121,Former,Low,2023-03-02,2023-03-03,Diabetes,Diabetes,D048,H09
+P0062,Patient_62,38,Female,157,45,30.9,94,119,96,228,96,Never,Low,2023-03-03,2023-03-04,None,Heart Disease,D034,H12
+P0063,Patient_63,42,Female,189,69,39.0,178,62,82,230,88,Current,None,2023-03-04,2023-03-05,Asthma,Hypertension,D009,H10
+P0064,Patient_64,78,Female,155,56,33.4,123,103,70,259,166,Never,High,2023-03-05,2023-03-06,Asthma,Hypertension,D037,H08
+P0065,Patient_65,56,Female,165,66,30.4,114,68,87,182,188,Current,High,2023-03-06,2023-03-07,None,None,D016,H08
+P0066,Patient_66,23,Female,169,110,36.3,159,86,78,246,142,Current,Moderate,2023-03-07,2023-03-08,Heart Disease,Heart Disease,D018,H15
+P0067,Patient_67,27,Female,153,118,31.6,104,62,68,160,112,Former,Low,2023-03-08,2023-03-09,Diabetes,Heart Disease,D035,H09
+P0068,Patient_68,67,Female,154,100,31.3,160,61,60,236,124,Former,Moderate,2023-03-09,2023-03-10,Hypertension,Hypertension,D025,H14
+P0069,Patient_69,59,Male,184,83,33.1,170,62,84,238,153,Former,High,2023-03-10,2023-03-11,Hypertension,Diabetes,D048,H17
+P0070,Patient_70,53,Female,197,117,23.8,132,97,90,144,159,Never,Low,2023-03-11,2023-03-12,Hypertension,Hypertension,D024,H12
+P0071,Patient_71,31,Female,164,50,34.1,137,67,95,229,132,Current,High,2023-03-12,2023-03-13,None,Diabetes,D044,H07
+P0072,Patient_72,60,Male,141,102,38.5,117,100,92,132,186,Current,Low,2023-03-13,2023-03-14,Diabetes,Diabetes,D003,H10
+P0073,Patient_73,73,Female,194,70,36.2,114,71,71,182,156,Current,High,2023-03-14,2023-03-15,Diabetes,Diabetes,D028,H04
+P0074,Patient_74,72,Female,179,57,39.0,112,84,60,243,177,Never,Moderate,2023-03-15,2023-03-16,None,Heart Disease,D030,H10
+P0075,Patient_75,58,Male,175,80,39.1,172,101,93,131,80,Former,Moderate,2023-03-16,2023-03-17,Asthma,Cancer,D046,H12
+P0076,Patient_76,88,Female,141,62,22.1,131,95,72,167,84,Former,Low,2023-03-17,2023-03-18,Asthma,Diabetes,D023,H12
+P0077,Patient_77,32,Female,183,83,39.7,125,111,89,159,197,Former,Moderate,2023-03-18,2023-03-19,Asthma,Diabetes,D014,H04
+P0078,Patient_78,60,Female,194,51,29.0,128,101,88,250,104,Current,None,2023-03-19,2023-03-20,None,Diabetes,D022,H02
+P0079,Patient_79,36,Male,192,41,28.0,166,112,87,221,105,Former,Moderate,2023-03-20,2023-03-21,Heart Disease,Cancer,D024,H17
+P0080,Patient_80,74,Female,142,83,18.6,97,105,98,167,165,Current,None,2023-03-21,2023-03-22,Hypertension,None,D026,H11
+P0081,Patient_81,36,Male,151,57,22.5,131,89,70,206,170,Current,Low,2023-03-22,2023-03-23,Asthma,Heart Disease,D033,H11
+P0082,Patient_82,23,Female,163,69,24.3,172,105,68,201,153,Former,High,2023-03-23,2023-03-24,Asthma,Cancer,D022,H16
+P0083,Patient_83,19,Male,193,56,25.8,134,65,60,160,139,Former,High,2023-03-24,2023-03-25,Hypertension,Diabetes,D015,H04
+P0084,Patient_84,86,Female,187,115,34.4,147,90,60,230,120,Never,Moderate,2023-03-25,2023-03-26,None,Hypertension,D047,H03
+P0085,Patient_85,31,Male,174,117,34.8,162,115,62,253,171,Former,Low,2023-03-26,2023-03-27,Diabetes,None,D035,H07
+P0086,Patient_86,47,Female,163,64,29.7,125,81,99,202,163,Never,None,2023-03-27,2023-03-28,None,Heart Disease,D005,H03
+P0087,Patient_87,51,Female,155,82,27.7,128,107,77,253,85,Never,None,2023-03-28,2023-03-29,None,Cancer,D013,H14
+P0088,Patient_88,59,Male,190,72,25.9,143,90,98,246,197,Current,High,2023-03-29,2023-03-30,Heart Disease,Hypertension,D036,H05
+P0089,Patient_89,72,Female,158,52,36.8,99,86,99,266,151,Never,None,2023-03-30,2023-03-31,Diabetes,None,D001,H12
+P0090,Patient_90,78,Female,199,107,25.6,91,100,77,102,113,Current,Low,2023-03-31,2023-04-01,Asthma,None,D011,H06
+P0091,Patient_91,49,Female,148,43,36.6,90,94,70,228,140,Former,Moderate,2023-04-01,2023-04-02,Diabetes,Diabetes,D014,H02
+P0092,Patient_92,65,Male,187,100,37.0,122,112,72,265,128,Never,None,2023-04-02,2023-04-03,None,Heart Disease,D040,H08
+P0093,Patient_93,73,Female,184,90,38.6,107,61,79,217,160,Former,Moderate,2023-04-03,2023-04-04,Hypertension,Hypertension,D004,H04
+P0094,Patient_94,22,Female,170,74,25.6,118,115,86,104,127,Former,Moderate,2023-04-04,2023-04-05,Diabetes,Cancer,D010,H08
+P0095,Patient_95,89,Male,158,82,30.3,150,61,72,136,108,Current,Low,2023-04-05,2023-04-06,Asthma,None,D038,H18
+P0096,Patient_96,43,Female,182,110,20.9,175,82,87,258,142,Former,Moderate,2023-04-06,2023-04-07,None,Diabetes,D002,H05
+P0097,Patient_97,77,Female,159,49,20.5,132,114,71,144,93,Never,High,2023-04-07,2023-04-08,Asthma,Diabetes,D046,H07
+P0098,Patient_98,82,Male,185,47,27.0,92,87,69,113,139,Current,None,2023-04-08,2023-04-09,Diabetes,Hypertension,D008,H19
+P0099,Patient_99,88,Female,147,96,38.1,171,65,85,273,159,Never,Low,2023-04-09,2023-04-10,Hypertension,Cancer,D041,H14
+P0100,Patient_100,77,Female,177,83,39.9,111,69,77,199,70,Current,High,2023-04-10,2023-04-11,Heart Disease,None,D043,H05
+P0101,Patient_101,53,Female,184,45,27.7,172,80,98,296,81,Never,Moderate,2023-04-11,2023-04-12,Hypertension,None,D012,H18
+P0102,Patient_102,33,Male,180,74,27.9,128,117,66,237,188,Former,None,2023-04-12,2023-04-13,None,None,D029,H15
+P0103,Patient_103,25,Female,191,113,20.2,148,93,84,125,117,Former,None,2023-04-13,2023-04-14,Heart Disease,Diabetes,D044,H07
+P0104,Patient_104,53,Male,196,89,23.0,173,87,63,114,112,Current,Low,2023-04-14,2023-04-15,Heart Disease,Hypertension,D029,H11
+P0105,Patient_105,74,Male,188,72,36.5,147,117,96,230,96,Former,Moderate,2023-04-15,2023-04-16,None,Heart Disease,D044,H01
+P0106,Patient_106,88,Female,176,67,38.2,160,82,99,297,192,Current,None,2023-04-16,2023-04-17,Hypertension,Heart Disease,D015,H05
+P0107,Patient_107,36,Male,169,57,22.0,93,106,83,110,106,Former,High,2023-04-17,2023-04-18,Heart Disease,Heart Disease,D035,H14
+P0108,Patient_108,65,Female,169,72,18.9,122,81,66,129,147,Never,None,2023-04-18,2023-04-19,None,Diabetes,D024,H19
+P0109,Patient_109,59,Male,146,63,28.4,176,92,80,233,141,Current,Low,2023-04-19,2023-04-20,Hypertension,Hypertension,D028,H13
+P0110,Patient_110,57,Female,160,112,18.7,101,80,93,104,174,Never,High,2023-04-20,2023-04-21,Hypertension,Hypertension,D048,H06
+P0111,Patient_111,22,Male,163,80,32.1,149,116,77,296,113,Current,Low,2023-04-21,2023-04-22,Diabetes,Hypertension,D031,H17
+P0112,Patient_112,39,Female,156,118,32.9,133,101,69,205,117,Former,High,2023-04-22,2023-04-23,Asthma,Cancer,D040,H05
+P0113,Patient_113,49,Male,197,101,34.5,177,106,61,207,75,Former,Low,2023-04-23,2023-04-24,Heart Disease,Hypertension,D028,H01
+P0114,Patient_114,69,Male,180,55,33.4,172,106,70,154,123,Never,Low,2023-04-24,2023-04-25,Diabetes,Cancer,D032,H08
+P0115,Patient_115,70,Female,196,110,32.4,162,61,68,166,187,Former,None,2023-04-25,2023-04-26,Diabetes,Cancer,D019,H08
+P0116,Patient_116,36,Male,161,103,22.4,140,86,94,235,149,Current,High,2023-04-26,2023-04-27,Heart Disease,Hypertension,D038,H15
+P0117,Patient_117,45,Male,174,72,22.7,103,67,62,276,80,Never,Low,2023-04-27,2023-04-28,Hypertension,None,D038,H17
+P0118,Patient_118,20,Female,191,58,20.0,129,60,69,235,146,Never,High,2023-04-28,2023-04-29,None,Cancer,D014,H11
+P0119,Patient_119,79,Male,177,53,29.6,159,88,94,119,178,Former,Low,2023-04-29,2023-04-30,None,Hypertension,D025,H19
+P0120,Patient_120,32,Female,149,118,30.5,103,105,97,178,116,Former,Moderate,2023-04-30,2023-05-01,Diabetes,None,D008,H19
+P0121,Patient_121,39,Male,166,110,24.8,127,72,70,105,136,Former,Moderate,2023-05-01,2023-05-02,None,Diabetes,D030,H19
+P0122,Patient_122,26,Female,170,57,25.6,90,72,61,172,129,Current,Low,2023-05-02,2023-05-03,Hypertension,Diabetes,D015,H16
+P0123,Patient_123,85,Male,142,111,22.6,91,105,65,182,79,Never,Moderate,2023-05-03,2023-05-04,Diabetes,Cancer,D008,H12
+P0124,Patient_124,21,Female,145,51,39.9,175,113,74,231,160,Never,Low,2023-05-04,2023-05-05,Hypertension,None,D023,H13
+P0125,Patient_125,23,Male,182,42,25.1,160,84,89,211,164,Current,Moderate,2023-05-05,2023-05-06,Diabetes,Diabetes,D045,H10
+P0126,Patient_126,65,Male,179,42,27.1,142,108,72,141,73,Former,High,2023-05-06,2023-05-07,Hypertension,Hypertension,D028,H09
+P0127,Patient_127,21,Male,180,75,29.6,91,94,86,270,190,Current,Moderate,2023-05-07,2023-05-08,Asthma,Heart Disease,D025,H07
+P0128,Patient_128,33,Male,144,106,36.9,106,116,81,235,153,Never,None,2023-05-08,2023-05-09,Heart Disease,Diabetes,D012,H12
+P0129,Patient_129,87,Male,172,67,29.0,96,81,88,214,190,Current,High,2023-05-09,2023-05-10,None,Cancer,D001,H17
+P0130,Patient_130,47,Female,187,95,29.9,145,116,71,238,154,Former,High,2023-05-10,2023-05-11,None,Hypertension,D021,H07
+P0131,Patient_131,28,Male,176,57,25.2,98,80,76,150,131,Former,None,2023-05-11,2023-05-12,Asthma,Heart Disease,D030,H13
+P0132,Patient_132,55,Female,150,47,21.8,148,62,90,178,187,Never,Low,2023-05-12,2023-05-13,Hypertension,Cancer,D020,H16
+P0133,Patient_133,79,Male,147,80,30.6,172,114,95,249,140,Current,None,2023-05-13,2023-05-14,Asthma,None,D040,H17
+P0134,Patient_134,24,Female,148,107,28.0,178,119,76,258,119,Never,Low,2023-05-14,2023-05-15,None,Hypertension,D025,H19
+P0135,Patient_135,32,Male,163,76,26.3,96,113,71,253,105,Current,High,2023-05-15,2023-05-16,Asthma,Cancer,D045,H01
+P0136,Patient_136,51,Male,163,69,32.7,149,73,74,113,74,Current,High,2023-05-16,2023-05-17,Heart Disease,Hypertension,D030,H02
+P0137,Patient_137,52,Male,199,104,33.6,178,107,91,250,122,Former,High,2023-05-17,2023-05-18,Heart Disease,Heart Disease,D029,H15
+P0138,Patient_138,35,Female,179,72,24.7,163,101,71,159,198,Never,None,2023-05-18,2023-05-19,Heart Disease,Diabetes,D042,H13
+P0139,Patient_139,37,Female,149,97,29.6,120,91,71,203,96,Never,Moderate,2023-05-19,2023-05-20,Diabetes,Heart Disease,D036,H10
+P0140,Patient_140,68,Male,157,88,39.6,178,76,66,125,80,Never,None,2023-05-20,2023-05-21,Asthma,Hypertension,D001,H17
+P0141,Patient_141,81,Male,198,73,36.0,145,61,68,119,80,Current,High,2023-05-21,2023-05-22,None,Cancer,D038,H01
+P0142,Patient_142,25,Male,172,116,32.1,132,115,86,156,110,Current,Moderate,2023-05-22,2023-05-23,Hypertension,Heart Disease,D012,H10
+P0143,Patient_143,70,Female,172,99,27.7,172,112,92,247,74,Current,Moderate,2023-05-23,2023-05-24,Asthma,Diabetes,D048,H13
+P0144,Patient_144,73,Male,188,98,37.6,118,68,73,225,108,Former,Moderate,2023-05-24,2023-05-25,None,Cancer,D007,H03
+P0145,Patient_145,37,Female,149,82,24.0,92,85,95,293,156,Current,None,2023-05-25,2023-05-26,Diabetes,None,D019,H07
+P0146,Patient_146,28,Male,161,65,35.3,135,81,75,147,91,Never,None,2023-05-26,2023-05-27,None,Diabetes,D019,H08
+P0147,Patient_147,66,Male,146,43,39.9,140,113,92,280,171,Former,None,2023-05-27,2023-05-28,None,Hypertension,D043,H06
+P0148,Patient_148,52,Male,160,46,24.3,149,104,99,230,151,Former,Low,2023-05-28,2023-05-29,None,None,D014,H04
+P0149,Patient_149,70,Male,181,116,31.1,120,101,67,238,199,Current,Low,2023-05-29,2023-05-30,Diabetes,Cancer,D041,H07
+P0150,Patient_150,80,Male,165,50,32.9,179,119,69,208,125,Current,High,2023-05-30,2023-05-31,Hypertension,Cancer,D029,H07
+P0151,Patient_151,18,Male,161,45,21.3,166,98,71,196,93,Never,Moderate,2023-05-31,2023-06-01,Hypertension,Hypertension,D016,H19
+P0152,Patient_152,30,Male,145,114,28.9,123,114,71,287,186,Current,Moderate,2023-06-01,2023-06-02,Asthma,Heart Disease,D015,H01
+P0153,Patient_153,46,Male,167,110,23.9,149,60,70,190,158,Never,None,2023-06-02,2023-06-03,Asthma,Cancer,D029,H02
+P0154,Patient_154,30,Female,158,90,33.1,177,78,65,111,89,Former,Moderate,2023-06-03,2023-06-04,Diabetes,None,D037,H09
+P0155,Patient_155,25,Male,161,73,31.9,122,112,62,197,147,Current,None,2023-06-04,2023-06-05,Diabetes,Hypertension,D008,H14
+P0156,Patient_156,80,Male,193,82,28.1,109,106,85,282,167,Current,None,2023-06-05,2023-06-06,None,None,D034,H16
+P0157,Patient_157,32,Female,166,91,31.6,123,110,73,113,195,Never,Moderate,2023-06-06,2023-06-07,Heart Disease,Cancer,D015,H06
+P0158,Patient_158,39,Female,143,112,21.0,173,81,66,241,92,Former,High,2023-06-07,2023-06-08,Heart Disease,Diabetes,D002,H08
+P0159,Patient_159,69,Male,160,96,38.6,114,83,71,166,158,Former,High,2023-06-08,2023-06-09,Heart Disease,None,D044,H09
+P0160,Patient_160,86,Male,142,43,37.6,116,112,95,242,163,Never,None,2023-06-09,2023-06-10,None,Heart Disease,D028,H01
+P0161,Patient_161,61,Male,197,71,27.1,130,60,85,187,187,Never,None,2023-06-10,2023-06-11,Asthma,Heart Disease,D023,H15
+P0162,Patient_162,55,Male,150,55,28.3,151,106,82,195,121,Never,Moderate,2023-06-11,2023-06-12,Diabetes,Hypertension,D036,H15
+P0163,Patient_163,46,Male,174,108,22.7,131,96,82,277,98,Current,Low,2023-06-12,2023-06-13,Heart Disease,None,D047,H10
+P0164,Patient_164,56,Female,194,40,25.4,128,116,93,291,100,Current,Moderate,2023-06-13,2023-06-14,Diabetes,Diabetes,D035,H05
+P0165,Patient_165,82,Female,199,46,18.8,133,98,77,103,132,Current,High,2023-06-14,2023-06-15,None,None,D046,H10
+P0166,Patient_166,55,Female,151,78,35.8,176,70,62,156,176,Current,None,2023-06-15,2023-06-16,Heart Disease,Hypertension,D010,H09
+P0167,Patient_167,42,Male,189,95,29.1,146,74,66,145,193,Never,High,2023-06-16,2023-06-17,Heart Disease,Heart Disease,D040,H05
+P0168,Patient_168,44,Female,181,108,38.5,121,72,97,274,158,Never,Low,2023-06-17,2023-06-18,Asthma,Diabetes,D042,H13
+P0169,Patient_169,39,Female,159,62,26.1,154,114,91,212,132,Never,Low,2023-06-18,2023-06-19,Asthma,None,D047,H06
+P0170,Patient_170,73,Male,188,70,39.8,145,100,89,209,171,Never,None,2023-06-19,2023-06-20,Hypertension,Cancer,D012,H03
+P0171,Patient_171,86,Female,148,69,30.5,103,113,86,253,72,Current,None,2023-06-20,2023-06-21,None,Cancer,D006,H05
+P0172,Patient_172,67,Female,187,98,38.8,171,73,67,192,126,Current,High,2023-06-21,2023-06-22,Asthma,Diabetes,D047,H03
+P0173,Patient_173,49,Male,199,87,21.8,105,64,93,146,137,Never,None,2023-06-22,2023-06-23,Hypertension,Hypertension,D005,H02
+P0174,Patient_174,46,Male,176,114,26.3,103,94,91,272,85,Current,Moderate,2023-06-23,2023-06-24,Asthma,None,D023,H14
+P0175,Patient_175,74,Male,156,77,32.9,98,116,98,103,164,Current,Moderate,2023-06-24,2023-06-25,Hypertension,None,D048,H04
+P0176,Patient_176,54,Female,180,109,19.8,144,106,63,197,176,Never,Low,2023-06-25,2023-06-26,Hypertension,Hypertension,D034,H19
+P0177,Patient_177,60,Female,143,117,21.2,115,94,75,130,171,Current,High,2023-06-26,2023-06-27,None,Heart Disease,D017,H18
+P0178,Patient_178,72,Male,166,59,33.9,163,77,75,209,94,Former,Moderate,2023-06-27,2023-06-28,Diabetes,Heart Disease,D026,H07
+P0179,Patient_179,44,Female,178,52,33.2,120,92,75,189,71,Current,None,2023-06-28,2023-06-29,Diabetes,Cancer,D021,H11
+P0180,Patient_180,58,Female,160,100,20.0,172,60,72,170,130,Never,None,2023-06-29,2023-06-30,Diabetes,Cancer,D043,H18
+P0181,Patient_181,76,Female,164,109,32.0,149,82,89,106,132,Current,None,2023-06-30,2023-07-01,Asthma,Hypertension,D020,H04
+P0182,Patient_182,18,Female,193,86,35.5,142,69,70,276,144,Current,Low,2023-07-01,2023-07-02,Asthma,Diabetes,D010,H02
+P0183,Patient_183,65,Male,171,43,23.4,129,73,98,236,93,Never,Moderate,2023-07-02,2023-07-03,Hypertension,Hypertension,D034,H14
+P0184,Patient_184,31,Female,192,65,40.0,90,115,64,226,156,Never,Low,2023-07-03,2023-07-04,Heart Disease,Diabetes,D002,H06
+P0185,Patient_185,58,Male,147,98,20.6,147,63,73,120,136,Never,Low,2023-07-04,2023-07-05,Heart Disease,Cancer,D044,H01
+P0186,Patient_186,61,Male,174,109,31.7,92,85,63,127,164,Never,Low,2023-07-05,2023-07-06,Asthma,Hypertension,D036,H05
+P0187,Patient_187,35,Male,165,82,39.1,135,102,63,230,75,Former,None,2023-07-06,2023-07-07,Diabetes,Cancer,D002,H19
+P0188,Patient_188,57,Male,153,115,38.8,127,105,95,244,169,Current,Moderate,2023-07-07,2023-07-08,Heart Disease,None,D038,H04
+P0189,Patient_189,40,Female,152,75,35.2,105,101,99,249,108,Current,None,2023-07-08,2023-07-09,Diabetes,Diabetes,D012,H11
+P0190,Patient_190,64,Female,188,73,39.2,115,99,78,272,83,Current,Low,2023-07-09,2023-07-10,Hypertension,Hypertension,D031,H17
+P0191,Patient_191,20,Male,147,55,24.8,169,101,74,280,170,Former,Moderate,2023-07-10,2023-07-11,Diabetes,Cancer,D003,H07
+P0192,Patient_192,32,Male,193,79,22.2,177,78,82,232,127,Never,Moderate,2023-07-11,2023-07-12,Asthma,Hypertension,D010,H05
+P0193,Patient_193,88,Female,155,118,36.6,118,80,96,180,101,Never,None,2023-07-12,2023-07-13,Asthma,Heart Disease,D009,H10
+P0194,Patient_194,77,Female,167,118,20.6,120,67,73,220,107,Former,Moderate,2023-07-13,2023-07-14,None,Heart Disease,D038,H18
+P0195,Patient_195,56,Male,177,72,37.5,112,82,71,123,82,Never,Low,2023-07-14,2023-07-15,Asthma,Hypertension,D029,H19
+P0196,Patient_196,62,Female,164,80,20.4,111,112,91,224,163,Never,Moderate,2023-07-15,2023-07-16,Hypertension,Diabetes,D046,H04
+P0197,Patient_197,47,Female,176,78,29.6,126,110,88,106,107,Current,None,2023-07-16,2023-07-17,None,Heart Disease,D009,H01
+P0198,Patient_198,53,Female,186,48,34.6,108,79,76,199,91,Current,None,2023-07-17,2023-07-18,Asthma,Heart Disease,D022,H17
+P0199,Patient_199,66,Female,182,106,19.8,154,114,97,145,180,Former,High,2023-07-18,2023-07-19,Heart Disease,Hypertension,D046,H14
+P0200,Patient_200,79,Female,158,96,28.5,122,110,69,295,141,Former,None,2023-07-19,2023-07-20,Hypertension,None,D041,H18
+P0201,Patient_201,29,Female,183,85,28.2,168,91,89,238,140,Former,Moderate,2023-07-20,2023-07-21,Hypertension,Cancer,D024,H12
+P0202,Patient_202,83,Male,143,65,22.5,100,85,97,242,159,Current,High,2023-07-21,2023-07-22,Asthma,Cancer,D032,H03
+P0203,Patient_203,40,Female,198,58,37.0,148,99,70,221,101,Current,Low,2023-07-22,2023-07-23,None,None,D013,H05
+P0204,Patient_204,38,Female,179,41,35.8,150,83,60,115,190,Former,Low,2023-07-23,2023-07-24,Hypertension,Heart Disease,D005,H01
+P0205,Patient_205,27,Female,176,65,32.3,98,112,76,196,191,Never,Low,2023-07-24,2023-07-25,None,Diabetes,D027,H16
+P0206,Patient_206,79,Male,196,103,30.2,133,64,65,115,115,Current,None,2023-07-25,2023-07-26,Asthma,None,D013,H12
+P0207,Patient_207,38,Female,184,92,19.9,133,116,86,161,83,Current,None,2023-07-26,2023-07-27,Hypertension,Heart Disease,D041,H04
+P0208,Patient_208,76,Male,191,81,26.7,128,109,91,201,141,Former,High,2023-07-27,2023-07-28,Asthma,Heart Disease,D002,H14
+P0209,Patient_209,66,Male,167,101,26.5,103,106,79,144,178,Former,Low,2023-07-28,2023-07-29,Diabetes,Diabetes,D037,H12
+P0210,Patient_210,73,Male,195,76,22.0,151,79,86,297,113,Current,High,2023-07-29,2023-07-30,Diabetes,Cancer,D021,H13
+P0211,Patient_211,55,Female,183,44,30.5,150,101,94,272,155,Never,None,2023-07-30,2023-07-31,Hypertension,Diabetes,D024,H01
+P0212,Patient_212,78,Female,177,44,30.1,161,114,63,213,190,Former,None,2023-07-31,2023-08-01,Heart Disease,Hypertension,D026,H09
+P0213,Patient_213,48,Female,176,74,22.0,162,65,64,138,166,Never,Low,2023-08-01,2023-08-02,Diabetes,None,D023,H06
+P0214,Patient_214,41,Male,147,118,32.7,143,117,94,165,105,Current,Moderate,2023-08-02,2023-08-03,Asthma,Hypertension,D007,H19
+P0215,Patient_215,22,Female,167,40,24.5,130,80,83,185,196,Former,High,2023-08-03,2023-08-04,Hypertension,Hypertension,D007,H09
+P0216,Patient_216,79,Female,191,75,34.0,105,62,98,290,182,Former,Moderate,2023-08-04,2023-08-05,Hypertension,Diabetes,D013,H04
+P0217,Patient_217,41,Male,181,93,38.0,104,98,86,209,113,Former,None,2023-08-05,2023-08-06,Hypertension,None,D045,H05
+P0218,Patient_218,68,Male,151,100,26.1,153,103,73,294,98,Never,High,2023-08-06,2023-08-07,Diabetes,Cancer,D031,H17
+P0219,Patient_219,67,Male,171,95,26.1,167,63,88,257,72,Never,Moderate,2023-08-07,2023-08-08,Hypertension,None,D009,H03
+P0220,Patient_220,19,Male,179,60,31.0,155,80,69,228,122,Former,Low,2023-08-08,2023-08-09,Asthma,Hypertension,D005,H14
+P0221,Patient_221,60,Male,179,57,33.0,103,97,71,120,88,Current,None,2023-08-09,2023-08-10,None,None,D030,H12
+P0222,Patient_222,49,Female,189,116,25.2,148,76,80,102,123,Never,High,2023-08-10,2023-08-11,Diabetes,Cancer,D019,H17
+P0223,Patient_223,59,Female,140,100,31.5,154,73,84,243,174,Current,None,2023-08-11,2023-08-12,Diabetes,None,D021,H09
+P0224,Patient_224,50,Female,159,83,30.8,118,90,98,290,106,Current,Low,2023-08-12,2023-08-13,Asthma,Diabetes,D029,H02
+P0225,Patient_225,40,Male,193,89,34.4,133,90,75,124,92,Current,High,2023-08-13,2023-08-14,Asthma,Hypertension,D039,H05
+P0226,Patient_226,73,Male,146,80,23.3,111,69,81,115,187,Former,Low,2023-08-14,2023-08-15,Hypertension,None,D045,H14
+P0227,Patient_227,77,Male,170,55,22.9,126,63,95,209,169,Current,Moderate,2023-08-15,2023-08-16,Hypertension,Cancer,D048,H12
+P0228,Patient_228,53,Female,197,44,31.6,171,66,87,126,107,Never,Moderate,2023-08-16,2023-08-17,Asthma,Diabetes,D046,H03
+P0229,Patient_229,55,Female,189,67,38.0,168,63,78,236,103,Current,Low,2023-08-17,2023-08-18,Hypertension,Cancer,D008,H01
+P0230,Patient_230,26,Female,141,89,38.4,103,113,75,294,170,Current,None,2023-08-18,2023-08-19,None,Diabetes,D040,H13
+P0231,Patient_231,46,Male,181,106,28.0,172,115,98,101,155,Current,None,2023-08-19,2023-08-20,Heart Disease,Hypertension,D023,H16
+P0232,Patient_232,59,Male,176,43,35.1,104,102,93,231,90,Former,High,2023-08-20,2023-08-21,Asthma,None,D011,H14
+P0233,Patient_233,74,Female,155,108,19.7,168,100,81,180,190,Current,Moderate,2023-08-21,2023-08-22,Asthma,None,D016,H01
+P0234,Patient_234,81,Male,189,96,20.0,155,101,79,214,139,Never,None,2023-08-22,2023-08-23,Hypertension,Hypertension,D047,H15
+P0235,Patient_235,67,Female,181,95,34.4,157,83,84,126,101,Former,Moderate,2023-08-23,2023-08-24,Diabetes,Hypertension,D013,H10
+P0236,Patient_236,55,Female,162,117,28.3,136,118,72,244,146,Current,Low,2023-08-24,2023-08-25,Heart Disease,Heart Disease,D028,H05
+P0237,Patient_237,43,Male,160,92,35.5,121,93,84,259,79,Current,Moderate,2023-08-25,2023-08-26,Asthma,Diabetes,D004,H19
+P0238,Patient_238,73,Male,168,80,29.2,168,84,76,137,111,Current,High,2023-08-26,2023-08-27,Heart Disease,Cancer,D015,H03
+P0239,Patient_239,27,Male,150,41,29.1,118,70,63,222,70,Current,Moderate,2023-08-27,2023-08-28,Diabetes,Heart Disease,D004,H19
+P0240,Patient_240,39,Female,175,49,27.9,136,99,74,151,196,Current,Low,2023-08-28,2023-08-29,Diabetes,Diabetes,D016,H07
+P0241,Patient_241,60,Female,170,110,20.0,155,68,96,295,70,Current,Low,2023-08-29,2023-08-30,Heart Disease,Cancer,D021,H01
+P0242,Patient_242,75,Female,188,67,33.0,143,84,83,277,77,Never,None,2023-08-30,2023-08-31,Diabetes,Heart Disease,D011,H13
+P0243,Patient_243,34,Male,197,77,24.6,90,112,98,105,108,Never,None,2023-08-31,2023-09-01,Hypertension,None,D030,H18
+P0244,Patient_244,81,Male,178,97,24.2,160,67,60,175,90,Never,None,2023-09-01,2023-09-02,Heart Disease,None,D014,H02
+P0245,Patient_245,34,Female,161,90,31.2,116,62,72,128,76,Current,Low,2023-09-02,2023-09-03,Asthma,None,D010,H04
+P0246,Patient_246,24,Male,149,50,38.8,108,95,71,163,84,Never,None,2023-09-03,2023-09-04,Hypertension,None,D018,H13
+P0247,Patient_247,32,Male,197,79,26.7,95,75,73,147,170,Former,None,2023-09-04,2023-09-05,Heart Disease,Hypertension,D004,H17
+P0248,Patient_248,73,Male,173,109,23.5,97,92,74,240,182,Never,None,2023-09-05,2023-09-06,Diabetes,Diabetes,D025,H04
+P0249,Patient_249,44,Female,196,97,24.5,172,97,78,250,82,Former,Moderate,2023-09-06,2023-09-07,Heart Disease,Cancer,D040,H15
+P0250,Patient_250,47,Male,181,115,23.5,109,111,95,264,79,Former,Low,2023-09-07,2023-09-08,Hypertension,Diabetes,D004,H10
+P0251,Patient_251,66,Male,155,118,38.5,161,61,87,220,116,Never,High,2023-09-08,2023-09-09,Heart Disease,Heart Disease,D042,H13
+P0252,Patient_252,72,Male,164,87,30.3,113,87,85,185,180,Current,Low,2023-09-09,2023-09-10,Asthma,Heart Disease,D025,H02
+P0253,Patient_253,80,Female,146,69,35.3,121,81,69,145,83,Current,Low,2023-09-10,2023-09-11,Diabetes,Heart Disease,D045,H09
+P0254,Patient_254,22,Female,180,73,30.5,93,64,94,298,188,Current,Moderate,2023-09-11,2023-09-12,Hypertension,Cancer,D021,H18
+P0255,Patient_255,40,Male,140,100,37.3,138,64,87,168,161,Never,Moderate,2023-09-12,2023-09-13,Hypertension,None,D003,H16
+P0256,Patient_256,64,Male,166,59,28.6,115,107,81,193,166,Current,Low,2023-09-13,2023-09-14,None,Hypertension,D035,H19
+P0257,Patient_257,43,Female,190,117,34.4,122,71,77,190,145,Former,Low,2023-09-14,2023-09-15,None,Diabetes,D032,H10
+P0258,Patient_258,46,Female,174,41,26.7,168,85,91,267,78,Current,High,2023-09-15,2023-09-16,Diabetes,Heart Disease,D025,H02
+P0259,Patient_259,68,Male,170,73,35.0,147,70,92,247,198,Never,Moderate,2023-09-16,2023-09-17,Diabetes,Cancer,D040,H01
+P0260,Patient_260,40,Male,187,79,26.6,156,104,83,163,77,Never,High,2023-09-17,2023-09-18,Hypertension,Heart Disease,D006,H09
+P0261,Patient_261,83,Male,193,77,36.9,176,72,94,161,156,Former,Low,2023-09-18,2023-09-19,Heart Disease,None,D047,H02
+P0262,Patient_262,33,Female,177,83,39.2,169,61,61,269,101,Former,None,2023-09-19,2023-09-20,None,Cancer,D027,H09
+P0263,Patient_263,86,Male,144,67,36.7,157,79,73,234,86,Former,High,2023-09-20,2023-09-21,Asthma,Diabetes,D018,H14
+P0264,Patient_264,60,Female,148,113,33.2,115,70,96,199,149,Former,None,2023-09-21,2023-09-22,Diabetes,Cancer,D041,H01
+P0265,Patient_265,58,Female,189,46,27.5,165,70,77,114,110,Current,Moderate,2023-09-22,2023-09-23,None,None,D012,H10
+P0266,Patient_266,55,Male,141,47,29.6,97,106,90,277,187,Current,High,2023-09-23,2023-09-24,Asthma,Diabetes,D019,H15
+P0267,Patient_267,88,Male,151,110,39.6,100,97,76,132,133,Former,None,2023-09-24,2023-09-25,Diabetes,Cancer,D013,H15
+P0268,Patient_268,51,Male,187,113,39.7,115,117,77,175,177,Former,Low,2023-09-25,2023-09-26,Hypertension,Diabetes,D035,H19
+P0269,Patient_269,68,Male,165,109,20.0,179,104,86,129,80,Former,Low,2023-09-26,2023-09-27,Asthma,None,D036,H13
+P0270,Patient_270,37,Male,181,40,30.4,140,98,83,235,194,Never,Low,2023-09-27,2023-09-28,Heart Disease,Hypertension,D042,H08
+P0271,Patient_271,53,Male,197,98,27.3,132,114,65,298,115,Former,Moderate,2023-09-28,2023-09-29,None,None,D044,H18
+P0272,Patient_272,35,Female,175,66,33.3,98,63,69,245,167,Former,High,2023-09-29,2023-09-30,Asthma,Diabetes,D016,H01
+P0273,Patient_273,40,Male,163,119,27.5,117,63,89,222,131,Current,Moderate,2023-09-30,2023-10-01,Asthma,Cancer,D040,H11
+P0274,Patient_274,28,Male,163,99,20.7,150,93,64,141,79,Current,None,2023-10-01,2023-10-02,Diabetes,Cancer,D007,H18
+P0275,Patient_275,39,Female,150,49,37.0,159,105,94,153,110,Former,Low,2023-10-02,2023-10-03,Diabetes,Diabetes,D034,H14
+P0276,Patient_276,58,Male,167,106,35.0,99,70,64,137,103,Current,Low,2023-10-03,2023-10-04,Diabetes,Diabetes,D034,H12
+P0277,Patient_277,19,Female,159,80,26.9,117,119,81,204,175,Current,None,2023-10-04,2023-10-05,None,Heart Disease,D046,H19
+P0278,Patient_278,63,Female,198,102,24.1,166,95,65,221,170,Former,Low,2023-10-05,2023-10-06,Heart Disease,Diabetes,D014,H07
+P0279,Patient_279,42,Male,198,103,29.0,152,74,78,241,118,Current,Moderate,2023-10-06,2023-10-07,Diabetes,Diabetes,D004,H11
+P0280,Patient_280,46,Male,140,93,37.3,155,98,66,251,102,Never,None,2023-10-07,2023-10-08,Asthma,Heart Disease,D037,H12
+P0281,Patient_281,80,Female,188,97,21.8,172,93,82,272,154,Former,Moderate,2023-10-08,2023-10-09,Hypertension,Heart Disease,D048,H04
+P0282,Patient_282,75,Female,168,119,36.7,141,82,98,138,135,Current,Low,2023-10-09,2023-10-10,Asthma,None,D041,H01
+P0283,Patient_283,68,Male,197,63,31.8,97,71,97,211,98,Never,High,2023-10-10,2023-10-11,Hypertension,Hypertension,D038,H17
+P0284,Patient_284,27,Female,174,72,32.9,124,74,97,118,198,Never,Moderate,2023-10-11,2023-10-12,Diabetes,None,D042,H14
+P0285,Patient_285,88,Male,165,82,32.8,93,105,83,263,163,Former,Low,2023-10-12,2023-10-13,Hypertension,Cancer,D039,H02
+P0286,Patient_286,49,Female,176,68,33.2,176,97,80,198,75,Current,Low,2023-10-13,2023-10-14,Heart Disease,Hypertension,D031,H08
+P0287,Patient_287,57,Female,176,87,34.4,152,111,84,197,197,Current,Moderate,2023-10-14,2023-10-15,Asthma,Diabetes,D007,H10
+P0288,Patient_288,36,Male,159,44,20.3,113,108,79,115,79,Former,High,2023-10-15,2023-10-16,Asthma,None,D030,H19
+P0289,Patient_289,29,Female,160,75,37.6,143,70,72,153,110,Former,Moderate,2023-10-16,2023-10-17,None,Diabetes,D004,H01
+P0290,Patient_290,86,Male,167,49,21.3,115,112,70,172,130,Never,High,2023-10-17,2023-10-18,Asthma,None,D020,H07
+P0291,Patient_291,80,Female,158,102,23.1,91,96,64,175,198,Former,None,2023-10-18,2023-10-19,Diabetes,Heart Disease,D028,H09
+P0292,Patient_292,79,Female,146,70,39.8,125,80,84,191,170,Former,High,2023-10-19,2023-10-20,Hypertension,Cancer,D049,H10
+P0293,Patient_293,79,Male,181,44,19.5,101,116,76,238,167,Never,Low,2023-10-20,2023-10-21,Heart Disease,Hypertension,D042,H02
+P0294,Patient_294,39,Male,143,89,19.3,148,114,95,132,91,Never,High,2023-10-21,2023-10-22,None,Diabetes,D023,H11
+P0295,Patient_295,48,Male,188,52,29.8,120,86,78,190,121,Former,High,2023-10-22,2023-10-23,Diabetes,Heart Disease,D041,H06
+P0296,Patient_296,83,Male,197,68,32.4,90,117,71,175,93,Current,Moderate,2023-10-23,2023-10-24,Asthma,None,D008,H11
+P0297,Patient_297,53,Male,178,87,38.4,149,119,60,243,189,Never,High,2023-10-24,2023-10-25,Hypertension,Heart Disease,D015,H11
+P0298,Patient_298,69,Male,194,77,28.5,135,61,92,226,146,Former,High,2023-10-25,2023-10-26,Asthma,Hypertension,D031,H01
+P0299,Patient_299,68,Male,195,41,33.7,134,101,99,268,159,Former,Moderate,2023-10-26,2023-10-27,Heart Disease,Diabetes,D030,H10
+P0300,Patient_300,82,Male,176,95,29.7,178,63,97,147,181,Current,Low,2023-10-27,2023-10-28,Diabetes,Cancer,D010,H13
+P0301,Patient_301,39,Female,169,89,29.5,135,88,74,154,100,Current,High,2023-10-28,2023-10-29,Diabetes,Hypertension,D007,H16
+P0302,Patient_302,21,Male,150,63,32.4,107,67,75,178,109,Never,High,2023-10-29,2023-10-30,None,Cancer,D030,H14
+P0303,Patient_303,25,Male,187,78,33.7,118,66,73,156,94,Current,None,2023-10-30,2023-10-31,Hypertension,None,D022,H13
+P0304,Patient_304,73,Female,164,45,26.5,173,74,73,171,118,Former,None,2023-10-31,2023-11-01,Heart Disease,Diabetes,D026,H07
+P0305,Patient_305,24,Female,152,43,18.9,159,70,97,189,117,Former,None,2023-11-01,2023-11-02,Heart Disease,None,D001,H11
+P0306,Patient_306,58,Female,174,52,25.2,142,100,86,231,162,Never,Moderate,2023-11-02,2023-11-03,Asthma,Diabetes,D043,H08
+P0307,Patient_307,82,Male,195,99,26.9,147,112,77,228,110,Former,Moderate,2023-11-03,2023-11-04,Heart Disease,Hypertension,D005,H03
+P0308,Patient_308,77,Male,181,96,19.0,114,99,92,260,148,Current,Moderate,2023-11-04,2023-11-05,Diabetes,Hypertension,D030,H19
+P0309,Patient_309,31,Female,182,54,31.3,139,99,74,134,192,Former,None,2023-11-05,2023-11-06,Asthma,Cancer,D031,H04
+P0310,Patient_310,51,Male,141,82,24.8,169,117,97,179,188,Current,Low,2023-11-06,2023-11-07,Asthma,Heart Disease,D025,H09
+P0311,Patient_311,59,Male,195,61,39.5,175,64,65,127,89,Former,Low,2023-11-07,2023-11-08,Hypertension,Cancer,D045,H04
+P0312,Patient_312,44,Female,169,117,29.7,162,85,81,171,105,Former,None,2023-11-08,2023-11-09,Diabetes,Heart Disease,D030,H01
+P0313,Patient_313,49,Male,195,97,32.8,130,102,92,222,155,Current,High,2023-11-09,2023-11-10,Heart Disease,Heart Disease,D025,H07
+P0314,Patient_314,42,Female,149,49,18.9,102,70,70,258,90,Never,High,2023-11-10,2023-11-11,Diabetes,Heart Disease,D007,H11
+P0315,Patient_315,42,Female,144,52,26.0,98,64,69,201,86,Current,Low,2023-11-11,2023-11-12,Asthma,Heart Disease,D026,H11
+P0316,Patient_316,18,Female,154,111,32.9,126,97,80,240,198,Former,Moderate,2023-11-12,2023-11-13,None,Hypertension,D020,H14
+P0317,Patient_317,51,Male,164,111,23.2,159,64,72,104,86,Current,Low,2023-11-13,2023-11-14,Hypertension,Hypertension,D034,H08
+P0318,Patient_318,66,Male,161,55,36.6,126,118,67,105,72,Never,Moderate,2023-11-14,2023-11-15,Diabetes,Heart Disease,D041,H18
+P0319,Patient_319,48,Male,194,94,38.9,172,111,71,274,145,Current,Moderate,2023-11-15,2023-11-16,None,Heart Disease,D046,H13
+P0320,Patient_320,83,Male,187,66,32.1,105,61,64,286,129,Never,High,2023-11-16,2023-11-17,Asthma,Hypertension,D043,H14
+P0321,Patient_321,54,Male,187,78,32.3,113,95,92,119,178,Current,High,2023-11-17,2023-11-18,Diabetes,Diabetes,D040,H18
+P0322,Patient_322,58,Female,173,84,38.5,165,86,87,116,187,Current,None,2023-11-18,2023-11-19,Asthma,None,D035,H19
+P0323,Patient_323,53,Male,191,81,19.7,165,77,96,152,132,Never,None,2023-11-19,2023-11-20,Hypertension,Diabetes,D040,H09
+P0324,Patient_324,21,Male,146,93,31.9,116,62,72,251,77,Current,Low,2023-11-20,2023-11-21,Asthma,Hypertension,D047,H18
+P0325,Patient_325,38,Male,150,101,38.3,141,104,73,176,86,Former,None,2023-11-21,2023-11-22,Hypertension,Hypertension,D019,H02
+P0326,Patient_326,78,Male,140,49,36.9,157,110,93,290,139,Never,None,2023-11-22,2023-11-23,None,Diabetes,D003,H07
+P0327,Patient_327,84,Female,155,115,24.0,172,97,85,200,102,Never,Moderate,2023-11-23,2023-11-24,Diabetes,None,D043,H06
+P0328,Patient_328,34,Male,174,58,23.7,120,75,60,180,137,Current,Low,2023-11-24,2023-11-25,Asthma,None,D017,H12
+P0329,Patient_329,21,Male,195,114,20.1,123,96,94,103,195,Current,High,2023-11-25,2023-11-26,Diabetes,Cancer,D022,H03
+P0330,Patient_330,62,Female,146,80,39.2,148,92,62,273,104,Former,None,2023-11-26,2023-11-27,None,Diabetes,D019,H12
+P0331,Patient_331,39,Female,145,46,25.9,161,75,70,133,157,Current,Moderate,2023-11-27,2023-11-28,Heart Disease,None,D028,H02
+P0332,Patient_332,27,Female,158,96,32.5,160,110,87,108,191,Current,Low,2023-11-28,2023-11-29,Diabetes,Cancer,D045,H07
+P0333,Patient_333,31,Male,184,89,34.1,101,111,63,259,77,Former,High,2023-11-29,2023-11-30,Heart Disease,Heart Disease,D021,H07
+P0334,Patient_334,66,Female,165,105,25.9,96,72,62,287,82,Current,Low,2023-11-30,2023-12-01,None,Heart Disease,D005,H09
+P0335,Patient_335,88,Male,189,104,19.3,146,71,99,137,167,Former,None,2023-12-01,2023-12-02,Diabetes,Diabetes,D010,H16
+P0336,Patient_336,81,Male,184,96,26.9,99,82,69,232,88,Never,Moderate,2023-12-02,2023-12-03,Diabetes,Cancer,D019,H07
+P0337,Patient_337,85,Female,166,76,38.2,140,106,91,238,161,Current,None,2023-12-03,2023-12-04,Heart Disease,Heart Disease,D023,H02
+P0338,Patient_338,67,Male,174,57,38.1,119,90,88,284,141,Current,Low,2023-12-04,2023-12-05,Hypertension,Hypertension,D007,H14
+P0339,Patient_339,61,Female,156,58,28.2,144,115,76,221,194,Current,Moderate,2023-12-05,2023-12-06,None,Cancer,D026,H13
+P0340,Patient_340,58,Male,159,84,33.4,106,83,98,169,165,Never,None,2023-12-06,2023-12-07,Heart Disease,Heart Disease,D018,H01
+P0341,Patient_341,50,Male,193,83,29.3,98,91,71,118,141,Never,High,2023-12-07,2023-12-08,Asthma,Diabetes,D003,H04
+P0342,Patient_342,23,Male,192,74,28.0,156,102,73,209,106,Former,High,2023-12-08,2023-12-09,Diabetes,Diabetes,D009,H17
+P0343,Patient_343,63,Male,161,95,27.1,153,106,78,186,81,Former,Moderate,2023-12-09,2023-12-10,Diabetes,None,D008,H19
+P0344,Patient_344,38,Female,196,82,23.5,131,117,80,258,180,Never,Moderate,2023-12-10,2023-12-11,Hypertension,Diabetes,D016,H10
+P0345,Patient_345,25,Female,181,118,19.1,138,113,62,157,155,Current,Low,2023-12-11,2023-12-12,None,Diabetes,D038,H07
+P0346,Patient_346,50,Male,148,102,37.5,148,99,99,204,139,Current,High,2023-12-12,2023-12-13,Asthma,Diabetes,D032,H18
+P0347,Patient_347,49,Female,181,74,35.3,92,111,89,221,108,Former,None,2023-12-13,2023-12-14,Hypertension,Cancer,D031,H01
+P0348,Patient_348,81,Female,175,64,36.7,91,60,71,169,177,Never,High,2023-12-14,2023-12-15,Hypertension,None,D022,H06
+P0349,Patient_349,21,Female,174,89,35.5,106,74,60,251,134,Former,Low,2023-12-15,2023-12-16,Asthma,Hypertension,D032,H11
+P0350,Patient_350,29,Female,156,82,36.7,164,66,78,232,185,Current,Low,2023-12-16,2023-12-17,Heart Disease,Diabetes,D003,H17
+P0351,Patient_351,56,Male,173,80,38.4,149,64,74,247,96,Current,None,2023-12-17,2023-12-18,None,Hypertension,D029,H08
+P0352,Patient_352,89,Female,174,61,19.6,140,89,99,120,93,Current,None,2023-12-18,2023-12-19,Asthma,None,D036,H07
+P0353,Patient_353,24,Female,141,49,36.7,149,87,94,287,199,Never,Low,2023-12-19,2023-12-20,Heart Disease,None,D013,H05
+P0354,Patient_354,79,Female,196,109,25.5,139,86,95,120,181,Never,High,2023-12-20,2023-12-21,Diabetes,Diabetes,D016,H08
+P0355,Patient_355,56,Male,154,115,32.9,135,66,86,150,84,Never,Low,2023-12-21,2023-12-22,Diabetes,Heart Disease,D022,H13
+P0356,Patient_356,67,Male,169,52,22.9,131,69,81,142,82,Current,Low,2023-12-22,2023-12-23,None,Hypertension,D043,H17
+P0357,Patient_357,34,Male,159,52,20.3,179,66,64,173,198,Current,Moderate,2023-12-23,2023-12-24,None,Cancer,D036,H10
+P0358,Patient_358,43,Male,155,115,25.6,109,119,80,220,139,Never,None,2023-12-24,2023-12-25,Heart Disease,Heart Disease,D041,H12
+P0359,Patient_359,52,Male,191,83,36.4,163,88,93,125,144,Never,None,2023-12-25,2023-12-26,None,None,D044,H04
+P0360,Patient_360,78,Male,152,71,35.5,107,91,73,245,165,Former,None,2023-12-26,2023-12-27,Heart Disease,Cancer,D029,H06
+P0361,Patient_361,89,Male,182,60,33.4,148,72,70,103,124,Current,High,2023-12-27,2023-12-28,Diabetes,Cancer,D027,H10
+P0362,Patient_362,21,Male,180,89,27.4,105,64,74,291,188,Current,Moderate,2023-12-28,2023-12-29,None,None,D031,H17
+P0363,Patient_363,88,Male,141,90,25.3,143,118,85,249,117,Current,None,2023-12-29,2023-12-30,Heart Disease,None,D015,H05
+P0364,Patient_364,44,Female,147,55,20.4,171,83,86,147,176,Never,Low,2023-12-30,2023-12-31,Hypertension,Cancer,D001,H04
+P0365,Patient_365,56,Male,145,60,39.8,174,104,74,280,126,Current,Low,2023-12-31,2024-01-01,Heart Disease,Diabetes,D033,H06
+P0366,Patient_366,63,Male,177,102,25.9,105,109,99,146,198,Never,None,2024-01-01,2024-01-02,Hypertension,Diabetes,D003,H03
+P0367,Patient_367,86,Female,174,91,22.8,138,87,78,156,118,Current,None,2024-01-02,2024-01-03,Hypertension,Heart Disease,D014,H08
+P0368,Patient_368,50,Male,186,107,18.9,134,61,99,241,173,Never,High,2024-01-03,2024-01-04,Heart Disease,Diabetes,D004,H07
+P0369,Patient_369,86,Female,148,60,32.2,108,97,72,125,164,Current,Low,2024-01-04,2024-01-05,Heart Disease,Heart Disease,D018,H14
+P0370,Patient_370,23,Female,156,89,24.7,133,101,63,207,93,Former,Low,2024-01-05,2024-01-06,Hypertension,Diabetes,D013,H19
+P0371,Patient_371,50,Male,171,118,20.9,136,112,78,207,128,Current,None,2024-01-06,2024-01-07,Asthma,Hypertension,D010,H11
+P0372,Patient_372,51,Male,164,66,29.0,140,75,84,177,111,Never,None,2024-01-07,2024-01-08,Hypertension,Hypertension,D004,H06
+P0373,Patient_373,84,Male,165,47,33.9,149,81,72,271,148,Current,High,2024-01-08,2024-01-09,Diabetes,Diabetes,D041,H11
+P0374,Patient_374,79,Female,156,84,34.2,167,71,60,153,91,Never,Low,2024-01-09,2024-01-10,Asthma,None,D034,H01
+P0375,Patient_375,86,Male,174,114,36.1,107,64,62,258,195,Never,Low,2024-01-10,2024-01-11,Asthma,Diabetes,D023,H06
+P0376,Patient_376,41,Female,162,57,31.0,151,92,89,271,170,Current,Moderate,2024-01-11,2024-01-12,Diabetes,Heart Disease,D018,H13
+P0377,Patient_377,73,Female,154,42,21.2,115,113,95,128,189,Former,None,2024-01-12,2024-01-13,Hypertension,Hypertension,D044,H15
+P0378,Patient_378,85,Male,147,76,27.6,97,78,74,252,123,Never,None,2024-01-13,2024-01-14,Heart Disease,None,D049,H03
+P0379,Patient_379,76,Male,181,117,20.4,91,85,80,297,170,Former,High,2024-01-14,2024-01-15,Heart Disease,None,D039,H13
+P0380,Patient_380,31,Female,166,118,38.6,149,79,66,260,89,Current,Low,2024-01-15,2024-01-16,Diabetes,None,D019,H08
+P0381,Patient_381,70,Male,194,66,34.6,175,103,82,298,161,Former,Low,2024-01-16,2024-01-17,Heart Disease,Heart Disease,D046,H09
+P0382,Patient_382,19,Female,141,91,29.7,128,86,98,238,118,Former,None,2024-01-17,2024-01-18,Hypertension,Hypertension,D037,H18
+P0383,Patient_383,79,Male,199,45,26.3,155,109,96,285,78,Former,Low,2024-01-18,2024-01-19,Heart Disease,Cancer,D015,H05
+P0384,Patient_384,63,Male,151,43,29.0,159,77,97,208,128,Current,None,2024-01-19,2024-01-20,None,Hypertension,D038,H12
+P0385,Patient_385,33,Female,189,40,19.3,91,61,75,110,135,Never,Moderate,2024-01-20,2024-01-21,Asthma,Heart Disease,D044,H04
+P0386,Patient_386,22,Male,184,77,32.2,124,80,89,162,144,Current,Low,2024-01-21,2024-01-22,None,Diabetes,D048,H18
+P0387,Patient_387,36,Male,196,47,19.3,90,102,98,249,101,Current,High,2024-01-22,2024-01-23,Diabetes,Heart Disease,D045,H19
+P0388,Patient_388,77,Female,158,77,22.4,169,112,63,160,151,Never,Low,2024-01-23,2024-01-24,Asthma,None,D045,H17
+P0389,Patient_389,79,Female,165,59,35.0,95,116,93,230,106,Never,Moderate,2024-01-24,2024-01-25,Hypertension,None,D014,H13
+P0390,Patient_390,24,Male,155,70,32.3,159,93,75,193,155,Never,None,2024-01-25,2024-01-26,Hypertension,Cancer,D026,H19
+P0391,Patient_391,59,Female,154,50,23.5,125,80,60,234,146,Current,High,2024-01-26,2024-01-27,None,None,D030,H10
+P0392,Patient_392,32,Female,172,47,34.1,117,109,66,170,131,Never,None,2024-01-27,2024-01-28,Heart Disease,None,D016,H10
+P0393,Patient_393,63,Male,160,90,30.0,154,79,97,206,173,Current,None,2024-01-28,2024-01-29,Heart Disease,None,D013,H01
+P0394,Patient_394,52,Female,194,97,37.1,117,78,69,143,131,Never,Moderate,2024-01-29,2024-01-30,Asthma,Diabetes,D019,H10
+P0395,Patient_395,40,Female,179,113,22.5,106,71,62,284,184,Former,Moderate,2024-01-30,2024-01-31,Heart Disease,Diabetes,D027,H10
+P0396,Patient_396,56,Female,171,114,18.8,110,64,91,119,70,Current,None,2024-01-31,2024-02-01,Asthma,Cancer,D015,H13
+P0397,Patient_397,64,Female,163,63,25.1,171,102,98,173,185,Never,None,2024-02-01,2024-02-02,None,Cancer,D018,H03
+P0398,Patient_398,71,Male,190,115,35.2,126,73,71,220,158,Former,Low,2024-02-02,2024-02-03,Diabetes,Heart Disease,D031,H01
+P0399,Patient_399,18,Female,187,50,36.6,113,93,60,266,163,Current,Moderate,2024-02-03,2024-02-04,Hypertension,Heart Disease,D025,H07
+P0400,Patient_400,63,Male,158,97,35.0,97,86,68,101,151,Former,Low,2024-02-04,2024-02-05,Heart Disease,Hypertension,D022,H18
+P0401,Patient_401,26,Male,185,110,32.5,166,114,74,161,174,Current,High,2024-02-05,2024-02-06,Asthma,Diabetes,D006,H17
+P0402,Patient_402,81,Male,180,82,38.5,105,99,71,105,182,Never,High,2024-02-06,2024-02-07,None,Cancer,D005,H16
+P0403,Patient_403,75,Male,157,107,19.3,173,109,67,216,91,Current,None,2024-02-07,2024-02-08,None,Hypertension,D008,H19
+P0404,Patient_404,33,Female,153,42,36.0,174,109,95,123,178,Never,Low,2024-02-08,2024-02-09,None,Hypertension,D004,H14
+P0405,Patient_405,22,Male,174,114,29.9,165,86,64,268,187,Never,High,2024-02-09,2024-02-10,Hypertension,Heart Disease,D013,H18
+P0406,Patient_406,19,Female,183,94,31.8,165,63,70,252,103,Former,None,2024-02-10,2024-02-11,Hypertension,Hypertension,D005,H02
+P0407,Patient_407,25,Female,170,88,38.8,150,80,87,271,110,Current,High,2024-02-11,2024-02-12,Heart Disease,Hypertension,D038,H03
+P0408,Patient_408,50,Female,185,40,34.5,171,101,76,251,86,Current,None,2024-02-12,2024-02-13,None,Heart Disease,D028,H06
+P0409,Patient_409,32,Male,182,110,34.0,136,110,81,214,160,Current,Low,2024-02-13,2024-02-14,None,Cancer,D026,H19
+P0410,Patient_410,68,Male,190,85,39.9,103,74,96,192,197,Former,Moderate,2024-02-14,2024-02-15,None,Cancer,D020,H18
+P0411,Patient_411,77,Female,159,56,32.6,151,82,60,107,122,Current,None,2024-02-15,2024-02-16,Diabetes,Heart Disease,D034,H16
+P0412,Patient_412,83,Female,180,60,23.7,142,117,91,126,155,Never,Moderate,2024-02-16,2024-02-17,Hypertension,None,D010,H12
+P0413,Patient_413,32,Male,172,57,31.2,151,101,65,272,97,Former,Moderate,2024-02-17,2024-02-18,Diabetes,Cancer,D033,H01
+P0414,Patient_414,19,Female,152,86,39.4,104,82,78,222,185,Former,Moderate,2024-02-18,2024-02-19,None,Heart Disease,D023,H18
+P0415,Patient_415,68,Female,197,80,25.4,92,114,83,250,190,Former,Moderate,2024-02-19,2024-02-20,Hypertension,Heart Disease,D030,H12
+P0416,Patient_416,51,Female,169,86,18.6,106,73,93,292,140,Former,Moderate,2024-02-20,2024-02-21,Heart Disease,Hypertension,D005,H05
+P0417,Patient_417,67,Female,195,83,35.7,169,80,62,100,110,Never,None,2024-02-21,2024-02-22,Hypertension,Cancer,D003,H15
+P0418,Patient_418,20,Female,175,46,19.5,154,68,70,154,118,Former,High,2024-02-22,2024-02-23,Asthma,Hypertension,D019,H19
+P0419,Patient_419,60,Female,194,56,36.1,120,85,91,123,106,Never,Moderate,2024-02-23,2024-02-24,Asthma,Hypertension,D028,H15
+P0420,Patient_420,74,Female,142,113,38.0,113,97,62,184,96,Current,Low,2024-02-24,2024-02-25,None,Hypertension,D012,H16
+P0421,Patient_421,62,Female,179,109,21.7,125,60,91,184,172,Former,Low,2024-02-25,2024-02-26,Asthma,None,D038,H06
+P0422,Patient_422,73,Female,179,55,20.7,108,68,82,297,115,Current,Moderate,2024-02-26,2024-02-27,Heart Disease,Heart Disease,D023,H07
+P0423,Patient_423,38,Male,153,57,38.4,144,83,84,173,126,Current,Moderate,2024-02-27,2024-02-28,None,None,D029,H05
+P0424,Patient_424,35,Female,198,85,20.9,117,95,82,127,99,Current,Low,2024-02-28,2024-02-29,Diabetes,Hypertension,D037,H09
+P0425,Patient_425,53,Male,190,81,28.7,111,96,76,130,160,Former,Low,2024-02-29,2024-03-01,Diabetes,Heart Disease,D036,H10
+P0426,Patient_426,85,Male,148,102,31.6,96,114,78,188,195,Former,None,2024-03-01,2024-03-02,Asthma,Heart Disease,D031,H03
+P0427,Patient_427,20,Male,149,102,32.5,137,88,61,253,140,Current,Moderate,2024-03-02,2024-03-03,Diabetes,Diabetes,D025,H06
+P0428,Patient_428,28,Female,141,73,30.6,90,93,99,189,184,Former,Moderate,2024-03-03,2024-03-04,Diabetes,Hypertension,D013,H06
+P0429,Patient_429,60,Female,143,53,23.6,147,104,64,111,163,Former,Moderate,2024-03-04,2024-03-05,Diabetes,Hypertension,D038,H15
+P0430,Patient_430,50,Male,164,94,23.7,159,108,74,291,186,Never,High,2024-03-05,2024-03-06,None,Heart Disease,D047,H16
+P0431,Patient_431,37,Male,164,41,23.0,121,94,89,285,187,Former,Low,2024-03-06,2024-03-07,Diabetes,Hypertension,D042,H16
+P0432,Patient_432,45,Female,162,44,23.3,91,80,98,164,194,Current,Moderate,2024-03-07,2024-03-08,Asthma,Hypertension,D016,H14
+P0433,Patient_433,19,Male,159,55,23.8,124,104,94,164,141,Current,None,2024-03-08,2024-03-09,None,Cancer,D041,H14
+P0434,Patient_434,24,Female,148,51,22.9,91,83,75,299,157,Former,None,2024-03-09,2024-03-10,Heart Disease,Diabetes,D003,H03
+P0435,Patient_435,84,Female,188,83,32.4,95,69,81,206,169,Former,Low,2024-03-10,2024-03-11,Heart Disease,Heart Disease,D023,H06
+P0436,Patient_436,66,Male,185,114,27.9,139,80,66,127,169,Never,Moderate,2024-03-11,2024-03-12,Diabetes,Diabetes,D044,H16
+P0437,Patient_437,86,Male,140,79,19.4,119,82,99,200,187,Former,High,2024-03-12,2024-03-13,Asthma,Hypertension,D049,H04
+P0438,Patient_438,39,Female,173,59,36.4,143,105,99,129,145,Never,Low,2024-03-13,2024-03-14,Hypertension,Heart Disease,D011,H02
+P0439,Patient_439,40,Male,173,75,22.0,147,87,92,129,141,Never,Moderate,2024-03-14,2024-03-15,Asthma,Diabetes,D005,H16
+P0440,Patient_440,25,Female,159,78,33.9,96,118,90,190,79,Former,None,2024-03-15,2024-03-16,Diabetes,Heart Disease,D044,H06
+P0441,Patient_441,50,Female,194,71,37.3,146,95,81,120,182,Former,Moderate,2024-03-16,2024-03-17,Hypertension,Heart Disease,D002,H09
+P0442,Patient_442,75,Male,169,85,36.1,176,107,66,246,86,Former,None,2024-03-17,2024-03-18,Asthma,Heart Disease,D027,H09
+P0443,Patient_443,39,Female,163,71,18.6,97,106,61,250,111,Former,Low,2024-03-18,2024-03-19,None,None,D014,H14
+P0444,Patient_444,69,Male,181,51,22.3,90,100,82,230,98,Current,None,2024-03-19,2024-03-20,Heart Disease,None,D032,H15
+P0445,Patient_445,21,Male,187,118,31.8,116,62,69,165,141,Former,None,2024-03-20,2024-03-21,None,Cancer,D027,H09
+P0446,Patient_446,27,Female,158,68,23.0,145,73,82,138,162,Never,High,2024-03-21,2024-03-22,Hypertension,Heart Disease,D045,H01
+P0447,Patient_447,31,Female,186,96,31.4,163,119,84,123,166,Current,High,2024-03-22,2024-03-23,Hypertension,None,D024,H16
+P0448,Patient_448,71,Male,151,43,22.3,161,87,80,232,194,Former,None,2024-03-23,2024-03-24,Heart Disease,Diabetes,D027,H02
+P0449,Patient_449,24,Male,151,53,25.6,149,90,63,133,191,Current,Low,2024-03-24,2024-03-25,Heart Disease,Heart Disease,D035,H05
+P0450,Patient_450,75,Female,164,68,34.0,114,90,70,268,114,Former,Moderate,2024-03-25,2024-03-26,Heart Disease,Heart Disease,D007,H13
+P0451,Patient_451,79,Female,161,109,34.7,93,96,90,287,158,Never,None,2024-03-26,2024-03-27,Asthma,Hypertension,D020,H12
+P0452,Patient_452,89,Female,179,49,23.0,148,88,84,166,167,Current,None,2024-03-27,2024-03-28,Diabetes,Cancer,D004,H19
+P0453,Patient_453,82,Male,186,97,26.6,145,84,69,280,169,Former,High,2024-03-28,2024-03-29,Diabetes,Hypertension,D030,H09
+P0454,Patient_454,66,Female,185,64,31.5,147,95,97,113,118,Current,Moderate,2024-03-29,2024-03-30,Heart Disease,Diabetes,D013,H07
+P0455,Patient_455,81,Female,187,41,36.5,106,79,62,188,155,Former,High,2024-03-30,2024-03-31,Heart Disease,Diabetes,D010,H12
+P0456,Patient_456,41,Female,149,60,33.7,158,77,67,275,86,Current,None,2024-03-31,2024-04-01,Diabetes,Cancer,D009,H06
+P0457,Patient_457,44,Female,148,100,29.6,172,112,70,107,162,Never,Moderate,2024-04-01,2024-04-02,Heart Disease,Hypertension,D024,H03
+P0458,Patient_458,65,Male,179,116,24.8,167,100,90,218,109,Never,Moderate,2024-04-02,2024-04-03,Hypertension,None,D028,H17
+P0459,Patient_459,52,Female,156,79,27.5,148,71,77,235,115,Former,High,2024-04-03,2024-04-04,Diabetes,Heart Disease,D004,H19
+P0460,Patient_460,56,Male,163,100,29.9,149,119,60,125,151,Never,None,2024-04-04,2024-04-05,Heart Disease,None,D018,H11
+P0461,Patient_461,53,Male,170,56,36.1,108,109,87,150,112,Never,Low,2024-04-05,2024-04-06,Heart Disease,Diabetes,D031,H13
+P0462,Patient_462,74,Female,162,115,35.0,113,116,76,140,78,Former,High,2024-04-06,2024-04-07,Asthma,None,D003,H11
+P0463,Patient_463,54,Male,173,78,27.9,167,93,65,234,124,Current,Low,2024-04-07,2024-04-08,Heart Disease,Diabetes,D038,H08
+P0464,Patient_464,26,Male,150,58,38.3,95,82,60,238,159,Never,High,2024-04-08,2024-04-09,Heart Disease,Cancer,D033,H04
+P0465,Patient_465,79,Female,140,62,20.3,154,109,62,190,98,Former,None,2024-04-09,2024-04-10,None,None,D025,H01
+P0466,Patient_466,44,Male,155,67,21.0,130,67,69,243,175,Current,None,2024-04-10,2024-04-11,Asthma,None,D010,H06
+P0467,Patient_467,55,Male,150,62,32.2,102,72,91,247,104,Never,Low,2024-04-11,2024-04-12,Diabetes,Diabetes,D016,H08
+P0468,Patient_468,59,Male,180,60,32.7,104,75,67,268,140,Former,Low,2024-04-12,2024-04-13,None,Hypertension,D049,H05
+P0469,Patient_469,33,Female,182,92,33.0,127,75,79,247,79,Former,Low,2024-04-13,2024-04-14,Heart Disease,Heart Disease,D042,H18
+P0470,Patient_470,61,Female,180,50,18.7,141,100,69,119,182,Current,None,2024-04-14,2024-04-15,Heart Disease,Hypertension,D016,H11
+P0471,Patient_471,41,Female,186,117,32.9,113,108,70,221,166,Former,High,2024-04-15,2024-04-16,Heart Disease,Cancer,D043,H11
+P0472,Patient_472,29,Female,191,69,30.0,174,65,80,173,79,Former,None,2024-04-16,2024-04-17,Hypertension,Cancer,D026,H01
+P0473,Patient_473,87,Male,155,49,35.9,129,63,76,290,103,Former,Low,2024-04-17,2024-04-18,Diabetes,Heart Disease,D034,H01
+P0474,Patient_474,58,Female,170,77,23.8,113,72,60,252,135,Never,None,2024-04-18,2024-04-19,Hypertension,Cancer,D024,H18
+P0475,Patient_475,87,Male,188,80,23.1,120,95,80,256,105,Never,High,2024-04-19,2024-04-20,Diabetes,Hypertension,D034,H14
+P0476,Patient_476,41,Male,188,112,20.2,143,93,89,212,161,Current,Low,2024-04-20,2024-04-21,None,Cancer,D026,H07
+P0477,Patient_477,55,Female,157,41,32.0,150,96,83,166,92,Current,Moderate,2024-04-21,2024-04-22,Heart Disease,Cancer,D031,H16
+P0478,Patient_478,21,Male,173,95,25.6,103,60,67,195,149,Former,None,2024-04-22,2024-04-23,Hypertension,Diabetes,D026,H04
+P0479,Patient_479,48,Male,193,68,24.8,133,72,85,222,74,Current,High,2024-04-23,2024-04-24,Hypertension,None,D017,H12
+P0480,Patient_480,81,Male,174,43,39.8,129,100,98,295,70,Never,Low,2024-04-24,2024-04-25,Asthma,Hypertension,D017,H12
+P0481,Patient_481,69,Male,150,90,33.9,100,100,98,254,84,Current,Moderate,2024-04-25,2024-04-26,Diabetes,None,D001,H08
+P0482,Patient_482,26,Female,162,80,39.7,90,90,87,246,182,Never,High,2024-04-26,2024-04-27,Hypertension,Heart Disease,D028,H06
+P0483,Patient_483,70,Male,140,62,29.8,93,87,64,164,76,Never,None,2024-04-27,2024-04-28,None,Diabetes,D033,H09
+P0484,Patient_484,49,Female,184,98,39.0,136,88,76,144,71,Never,Low,2024-04-28,2024-04-29,Hypertension,Cancer,D010,H02
+P0485,Patient_485,75,Male,150,42,35.7,164,86,75,235,86,Current,Low,2024-04-29,2024-04-30,Asthma,Cancer,D038,H02
+P0486,Patient_486,88,Female,163,96,35.3,113,118,70,183,159,Former,None,2024-04-30,2024-05-01,Diabetes,Cancer,D024,H06
+P0487,Patient_487,63,Male,145,119,38.7,146,78,69,185,194,Former,Low,2024-05-01,2024-05-02,Asthma,Heart Disease,D032,H02
+P0488,Patient_488,81,Male,153,48,22.3,144,86,80,217,117,Current,None,2024-05-02,2024-05-03,Asthma,Hypertension,D016,H07
+P0489,Patient_489,85,Male,151,74,25.1,111,69,92,205,155,Never,Low,2024-05-03,2024-05-04,Heart Disease,Cancer,D039,H11
+P0490,Patient_490,83,Female,174,40,21.3,112,91,63,248,82,Former,Low,2024-05-04,2024-05-05,None,Cancer,D040,H11
+P0491,Patient_491,57,Male,148,43,20.9,140,75,83,266,186,Never,Moderate,2024-05-05,2024-05-06,None,None,D038,H03
+P0492,Patient_492,89,Male,147,81,26.6,129,95,76,256,105,Former,Moderate,2024-05-06,2024-05-07,Hypertension,Diabetes,D034,H03
+P0493,Patient_493,27,Female,153,87,19.1,163,83,86,212,96,Current,Low,2024-05-07,2024-05-08,Asthma,Hypertension,D046,H14
+P0494,Patient_494,45,Female,187,105,38.7,169,88,67,155,168,Former,None,2024-05-08,2024-05-09,Hypertension,Diabetes,D034,H03
+P0495,Patient_495,36,Female,188,73,20.4,133,81,78,241,154,Current,None,2024-05-09,2024-05-10,Diabetes,Hypertension,D049,H17
+P0496,Patient_496,68,Male,152,79,31.2,97,94,97,195,91,Former,High,2024-05-10,2024-05-11,Asthma,Heart Disease,D039,H09
+P0497,Patient_497,53,Female,148,77,21.5,177,119,78,145,136,Current,Low,2024-05-11,2024-05-12,Diabetes,None,D047,H07
+P0498,Patient_498,27,Male,175,46,24.0,132,117,90,244,175,Former,Moderate,2024-05-12,2024-05-13,None,Heart Disease,D035,H04
+P0499,Patient_499,52,Female,153,106,24.6,146,64,92,276,132,Current,High,2024-05-13,2024-05-14,Heart Disease,Cancer,D010,H04
+P0500,Patient_500,76,Male,166,44,27.8,120,94,97,295,116,Never,Low,2024-05-14,2024-05-15,Hypertension,Diabetes,D028,H14
+P0501,Patient_501,74,Male,165,103,19.2,102,81,80,163,177,Former,High,2024-05-15,2024-05-16,Asthma,Heart Disease,D024,H12
+P0502,Patient_502,82,Male,171,64,20.1,116,77,77,173,180,Never,High,2024-05-16,2024-05-17,None,Cancer,D008,H02
+P0503,Patient_503,25,Male,149,103,24.2,127,90,71,123,119,Former,Moderate,2024-05-17,2024-05-18,Heart Disease,Diabetes,D028,H06
+P0504,Patient_504,69,Male,165,116,20.5,128,64,79,118,150,Never,High,2024-05-18,2024-05-19,Hypertension,Diabetes,D013,H12
+P0505,Patient_505,19,Male,190,67,34.3,166,75,98,236,172,Never,None,2024-05-19,2024-05-20,Diabetes,Heart Disease,D041,H04
+P0506,Patient_506,80,Male,162,88,30.8,101,102,88,234,120,Former,Low,2024-05-20,2024-05-21,None,None,D029,H09
+P0507,Patient_507,69,Male,161,76,33.0,104,81,96,160,151,Never,High,2024-05-21,2024-05-22,Diabetes,Cancer,D018,H19
+P0508,Patient_508,52,Male,141,115,29.8,90,73,94,105,138,Former,None,2024-05-22,2024-05-23,None,Diabetes,D018,H13
+P0509,Patient_509,64,Female,142,92,37.2,155,76,74,265,152,Former,None,2024-05-23,2024-05-24,Asthma,Diabetes,D032,H09
+P0510,Patient_510,22,Male,184,103,29.7,166,102,67,293,113,Former,Low,2024-05-24,2024-05-25,None,Heart Disease,D003,H17
+P0511,Patient_511,29,Female,153,105,24.7,179,78,63,268,108,Former,Low,2024-05-25,2024-05-26,None,None,D008,H11
+P0512,Patient_512,52,Male,197,77,34.2,94,87,68,297,102,Current,Low,2024-05-26,2024-05-27,None,Diabetes,D042,H03
+P0513,Patient_513,68,Male,191,48,30.4,117,96,67,141,179,Current,High,2024-05-27,2024-05-28,None,None,D044,H14
+P0514,Patient_514,68,Female,158,105,30.0,111,112,79,154,165,Never,Low,2024-05-28,2024-05-29,None,Diabetes,D041,H16
+P0515,Patient_515,56,Female,159,78,33.8,109,85,82,299,90,Former,Moderate,2024-05-29,2024-05-30,Heart Disease,None,D045,H04
+P0516,Patient_516,87,Male,199,45,32.5,130,93,88,154,101,Former,None,2024-05-30,2024-05-31,None,None,D047,H06
+P0517,Patient_517,31,Male,189,69,27.8,164,89,77,236,184,Never,High,2024-05-31,2024-06-01,Diabetes,None,D047,H18
+P0518,Patient_518,77,Male,177,56,28.1,96,87,65,220,78,Current,None,2024-06-01,2024-06-02,Diabetes,Hypertension,D010,H02
+P0519,Patient_519,37,Male,165,89,29.1,161,85,62,229,79,Former,Moderate,2024-06-02,2024-06-03,Diabetes,Cancer,D032,H01
+P0520,Patient_520,41,Male,142,69,37.4,151,110,90,136,180,Former,None,2024-06-03,2024-06-04,Heart Disease,Heart Disease,D001,H13
+P0521,Patient_521,85,Male,143,59,19.1,162,118,77,285,110,Never,Moderate,2024-06-04,2024-06-05,Heart Disease,None,D013,H04
+P0522,Patient_522,78,Female,181,67,18.9,143,112,81,199,90,Never,Low,2024-06-05,2024-06-06,Heart Disease,Diabetes,D014,H02
+P0523,Patient_523,32,Male,166,109,22.5,151,112,71,226,198,Former,None,2024-06-06,2024-06-07,Diabetes,Diabetes,D020,H14
+P0524,Patient_524,79,Female,190,78,21.0,100,66,69,180,81,Former,Moderate,2024-06-07,2024-06-08,None,Cancer,D029,H12
+P0525,Patient_525,80,Female,179,50,22.3,119,96,77,264,137,Former,Low,2024-06-08,2024-06-09,Hypertension,Hypertension,D021,H19
+P0526,Patient_526,38,Male,172,50,22.9,96,70,76,206,87,Never,Moderate,2024-06-09,2024-06-10,None,Hypertension,D025,H05
+P0527,Patient_527,33,Male,189,80,24.2,115,101,99,111,136,Current,Low,2024-06-10,2024-06-11,Asthma,Heart Disease,D034,H10
+P0528,Patient_528,25,Male,151,101,28.7,175,89,73,294,175,Never,Moderate,2024-06-11,2024-06-12,Asthma,Diabetes,D022,H16
+P0529,Patient_529,60,Female,183,50,38.5,179,104,78,126,191,Former,Moderate,2024-06-12,2024-06-13,Hypertension,Cancer,D048,H04
+P0530,Patient_530,60,Female,187,101,24.0,150,109,93,276,139,Never,Moderate,2024-06-13,2024-06-14,Asthma,Heart Disease,D040,H11
+P0531,Patient_531,51,Male,141,85,33.6,175,70,61,136,95,Never,Moderate,2024-06-14,2024-06-15,None,Cancer,D040,H04
+P0532,Patient_532,81,Male,142,75,21.9,121,85,73,295,141,Former,None,2024-06-15,2024-06-16,Asthma,Cancer,D005,H17
+P0533,Patient_533,45,Male,151,49,35.2,119,93,93,231,131,Never,Low,2024-06-16,2024-06-17,None,Diabetes,D039,H15
+P0534,Patient_534,77,Female,190,44,34.9,147,84,97,148,176,Current,None,2024-06-17,2024-06-18,Heart Disease,Hypertension,D048,H18
+P0535,Patient_535,47,Male,176,83,38.9,105,79,61,116,103,Current,None,2024-06-18,2024-06-19,Heart Disease,Heart Disease,D032,H18
+P0536,Patient_536,36,Male,168,56,31.0,98,88,88,170,80,Current,Moderate,2024-06-19,2024-06-20,Heart Disease,Heart Disease,D009,H07
+P0537,Patient_537,73,Male,199,87,28.7,128,91,79,140,101,Former,Moderate,2024-06-20,2024-06-21,Asthma,Hypertension,D001,H18
+P0538,Patient_538,36,Female,193,51,28.3,167,118,81,120,159,Never,Low,2024-06-21,2024-06-22,Hypertension,None,D027,H19
+P0539,Patient_539,24,Female,162,66,31.8,150,73,67,229,81,Current,Low,2024-06-22,2024-06-23,Hypertension,Cancer,D030,H05
+P0540,Patient_540,25,Female,157,111,31.7,102,90,80,192,72,Current,Moderate,2024-06-23,2024-06-24,Hypertension,Hypertension,D003,H16
+P0541,Patient_541,51,Female,190,77,36.9,101,75,78,185,198,Former,None,2024-06-24,2024-06-25,None,Heart Disease,D039,H05
+P0542,Patient_542,72,Female,176,103,28.2,145,113,75,100,156,Former,Low,2024-06-25,2024-06-26,Diabetes,Hypertension,D045,H14
+P0543,Patient_543,82,Female,143,41,25.8,143,65,72,217,109,Current,High,2024-06-26,2024-06-27,Hypertension,Diabetes,D037,H01
+P0544,Patient_544,52,Male,150,114,20.6,164,119,98,216,156,Former,Moderate,2024-06-27,2024-06-28,Asthma,Heart Disease,D010,H03
+P0545,Patient_545,88,Male,168,116,29.8,97,80,64,238,94,Former,High,2024-06-28,2024-06-29,Diabetes,None,D024,H14
+P0546,Patient_546,82,Male,151,62,21.6,160,96,87,243,107,Current,Moderate,2024-06-29,2024-06-30,Asthma,Hypertension,D042,H11
+P0547,Patient_547,62,Female,174,55,27.9,111,106,62,121,105,Never,Moderate,2024-06-30,2024-07-01,Asthma,Diabetes,D040,H09
+P0548,Patient_548,86,Female,143,86,25.7,157,69,80,196,111,Former,None,2024-07-01,2024-07-02,None,None,D032,H19
+P0549,Patient_549,63,Female,155,87,27.1,136,68,94,154,192,Current,Low,2024-07-02,2024-07-03,Hypertension,Hypertension,D009,H14
+P0550,Patient_550,36,Male,146,108,26.8,133,99,82,159,80,Never,High,2024-07-03,2024-07-04,Asthma,Heart Disease,D035,H11
+P0551,Patient_551,33,Female,173,54,30.3,120,60,89,240,144,Current,High,2024-07-04,2024-07-05,Diabetes,None,D034,H15
+P0552,Patient_552,25,Female,153,41,39.5,126,108,95,140,79,Former,None,2024-07-05,2024-07-06,None,None,D027,H09
+P0553,Patient_553,18,Female,186,84,34.2,177,75,63,116,199,Current,None,2024-07-06,2024-07-07,Diabetes,Hypertension,D038,H04
+P0554,Patient_554,54,Male,146,103,28.6,121,63,90,111,156,Current,Moderate,2024-07-07,2024-07-08,None,Cancer,D045,H06
+P0555,Patient_555,89,Male,178,54,19.8,146,74,67,181,181,Former,Low,2024-07-08,2024-07-09,Heart Disease,Heart Disease,D009,H03
+P0556,Patient_556,80,Female,165,70,39.6,95,99,85,212,155,Former,None,2024-07-09,2024-07-10,Asthma,Diabetes,D014,H01
+P0557,Patient_557,46,Female,198,67,39.0,157,101,78,291,189,Never,Low,2024-07-10,2024-07-11,Asthma,None,D009,H14
+P0558,Patient_558,65,Male,165,52,29.8,98,114,92,280,159,Never,Moderate,2024-07-11,2024-07-12,Diabetes,Hypertension,D004,H01
+P0559,Patient_559,54,Male,169,48,37.2,161,84,84,296,120,Current,Moderate,2024-07-12,2024-07-13,Heart Disease,Diabetes,D036,H17
+P0560,Patient_560,44,Male,157,40,26.3,171,86,75,136,141,Former,None,2024-07-13,2024-07-14,None,Cancer,D012,H02
+P0561,Patient_561,39,Female,167,112,21.2,143,96,72,103,124,Former,None,2024-07-14,2024-07-15,Asthma,Hypertension,D020,H16
+P0562,Patient_562,59,Female,146,56,29.2,100,70,83,295,191,Former,Moderate,2024-07-15,2024-07-16,Asthma,Cancer,D038,H04
+P0563,Patient_563,83,Female,193,71,33.8,93,102,69,204,168,Current,Moderate,2024-07-16,2024-07-17,None,Cancer,D023,H08
+P0564,Patient_564,83,Female,168,74,26.3,104,69,67,203,87,Never,High,2024-07-17,2024-07-18,None,Diabetes,D035,H08
+P0565,Patient_565,58,Male,151,56,28.8,92,82,99,172,88,Former,None,2024-07-18,2024-07-19,Asthma,Cancer,D047,H13
+P0566,Patient_566,50,Female,178,41,28.5,110,70,80,245,150,Never,Moderate,2024-07-19,2024-07-20,Hypertension,Hypertension,D007,H06
+P0567,Patient_567,69,Male,197,64,25.5,153,109,85,126,76,Current,Moderate,2024-07-20,2024-07-21,Heart Disease,None,D037,H09
+P0568,Patient_568,42,Female,170,61,32.0,107,78,83,231,182,Never,None,2024-07-21,2024-07-22,None,Hypertension,D018,H08
+P0569,Patient_569,38,Male,197,116,22.9,92,88,81,189,162,Current,Low,2024-07-22,2024-07-23,Heart Disease,Heart Disease,D046,H15
+P0570,Patient_570,36,Male,160,46,39.6,108,64,72,142,179,Current,High,2024-07-23,2024-07-24,None,Hypertension,D023,H08
+P0571,Patient_571,63,Male,148,109,32.7,161,69,96,150,82,Current,Moderate,2024-07-24,2024-07-25,None,Heart Disease,D035,H07
+P0572,Patient_572,41,Male,158,51,30.3,132,113,77,210,135,Former,None,2024-07-25,2024-07-26,Asthma,Heart Disease,D025,H07
+P0573,Patient_573,75,Female,155,80,19.8,158,84,82,117,104,Never,Moderate,2024-07-26,2024-07-27,Heart Disease,Cancer,D037,H08
+P0574,Patient_574,83,Female,154,117,28.2,162,90,86,110,156,Current,None,2024-07-27,2024-07-28,Asthma,Hypertension,D027,H04
+P0575,Patient_575,54,Male,148,80,36.6,150,118,99,126,119,Current,None,2024-07-28,2024-07-29,Asthma,Diabetes,D041,H11
+P0576,Patient_576,45,Male,151,89,31.9,143,111,77,149,178,Former,Moderate,2024-07-29,2024-07-30,Heart Disease,Diabetes,D042,H02
+P0577,Patient_577,36,Female,192,41,34.6,111,75,81,144,177,Never,Low,2024-07-30,2024-07-31,Diabetes,Cancer,D030,H19
+P0578,Patient_578,53,Male,160,83,21.8,104,62,75,193,114,Never,Low,2024-07-31,2024-08-01,Heart Disease,Heart Disease,D030,H15
+P0579,Patient_579,89,Female,165,67,19.5,108,80,94,160,167,Never,None,2024-08-01,2024-08-02,None,None,D019,H08
+P0580,Patient_580,75,Male,181,101,38.8,96,97,68,126,192,Former,High,2024-08-02,2024-08-03,Hypertension,Cancer,D003,H04
+P0581,Patient_581,50,Female,174,90,30.4,90,62,93,134,171,Current,High,2024-08-03,2024-08-04,None,Hypertension,D001,H06
+P0582,Patient_582,35,Male,163,108,25.2,104,106,61,211,192,Current,High,2024-08-04,2024-08-05,Hypertension,Heart Disease,D045,H16
+P0583,Patient_583,73,Female,158,81,20.3,91,109,82,208,142,Current,None,2024-08-05,2024-08-06,Asthma,Hypertension,D021,H16
+P0584,Patient_584,81,Male,161,63,21.2,158,109,88,154,139,Never,None,2024-08-06,2024-08-07,Diabetes,None,D012,H13
+P0585,Patient_585,71,Female,168,93,30.8,150,73,94,210,111,Current,High,2024-08-07,2024-08-08,Heart Disease,Heart Disease,D021,H01
+P0586,Patient_586,63,Male,171,105,26.5,155,111,69,256,123,Former,Low,2024-08-08,2024-08-09,None,None,D010,H18
+P0587,Patient_587,43,Male,146,119,24.6,167,74,79,154,72,Never,Moderate,2024-08-09,2024-08-10,Asthma,Cancer,D039,H14
+P0588,Patient_588,86,Male,149,54,35.2,151,64,63,238,137,Former,High,2024-08-10,2024-08-11,Diabetes,Diabetes,D045,H09
+P0589,Patient_589,43,Male,185,77,34.9,94,66,90,274,150,Current,High,2024-08-11,2024-08-12,Diabetes,Heart Disease,D028,H18
+P0590,Patient_590,55,Female,169,80,25.6,123,70,78,182,89,Current,Moderate,2024-08-12,2024-08-13,Hypertension,Hypertension,D038,H08
+P0591,Patient_591,75,Female,184,81,36.4,176,71,75,287,136,Never,High,2024-08-13,2024-08-14,None,Cancer,D039,H10
+P0592,Patient_592,74,Female,163,100,32.7,150,99,79,120,96,Current,Low,2024-08-14,2024-08-15,Heart Disease,Hypertension,D032,H06
+P0593,Patient_593,29,Female,196,105,20.3,147,93,96,272,81,Former,Low,2024-08-15,2024-08-16,Diabetes,Cancer,D031,H07
+P0594,Patient_594,49,Female,192,76,29.6,169,64,99,177,85,Current,Low,2024-08-16,2024-08-17,Asthma,Hypertension,D042,H08
+P0595,Patient_595,47,Female,197,46,23.1,173,78,81,180,189,Former,Moderate,2024-08-17,2024-08-18,None,None,D005,H10
+P0596,Patient_596,41,Female,168,102,30.6,121,66,99,263,175,Current,None,2024-08-18,2024-08-19,Heart Disease,Cancer,D034,H14
+P0597,Patient_597,51,Male,195,69,27.4,132,66,79,184,184,Current,Low,2024-08-19,2024-08-20,Heart Disease,None,D042,H10
+P0598,Patient_598,45,Female,172,81,24.5,174,68,88,243,165,Never,Moderate,2024-08-20,2024-08-21,Diabetes,None,D032,H17
+P0599,Patient_599,43,Male,188,107,38.6,133,118,73,295,97,Never,High,2024-08-21,2024-08-22,Hypertension,Heart Disease,D037,H15
+P0600,Patient_600,62,Female,174,72,22.2,146,109,93,148,126,Never,Low,2024-08-22,2024-08-23,Hypertension,Hypertension,D040,H08
+P0601,Patient_601,54,Male,196,109,36.9,101,80,74,149,171,Never,Moderate,2024-08-23,2024-08-24,None,None,D028,H06
+P0602,Patient_602,53,Male,143,97,25.0,158,103,63,226,92,Never,None,2024-08-24,2024-08-25,Diabetes,None,D019,H10
+P0603,Patient_603,42,Female,145,61,34.5,120,68,83,178,184,Current,Moderate,2024-08-25,2024-08-26,Hypertension,None,D041,H04
+P0604,Patient_604,57,Male,198,107,35.7,174,84,96,102,178,Never,High,2024-08-26,2024-08-27,Heart Disease,Heart Disease,D019,H01
+P0605,Patient_605,75,Male,154,49,31.5,169,119,96,245,90,Never,None,2024-08-27,2024-08-28,Hypertension,Cancer,D027,H16
+P0606,Patient_606,55,Male,152,104,27.1,116,62,85,183,91,Former,High,2024-08-28,2024-08-29,Asthma,Heart Disease,D007,H19
+P0607,Patient_607,72,Female,168,74,34.5,149,86,97,177,127,Current,None,2024-08-29,2024-08-30,None,Cancer,D028,H14
+P0608,Patient_608,26,Male,166,83,34.7,129,99,87,279,174,Former,Moderate,2024-08-30,2024-08-31,Diabetes,Cancer,D008,H19
+P0609,Patient_609,88,Male,145,112,23.3,118,78,61,246,120,Former,Low,2024-08-31,2024-09-01,Diabetes,None,D038,H04
+P0610,Patient_610,77,Female,193,52,37.9,109,62,93,223,98,Former,Low,2024-09-01,2024-09-02,None,Cancer,D025,H18
+P0611,Patient_611,41,Male,183,72,24.3,147,114,71,170,183,Former,None,2024-09-02,2024-09-03,Hypertension,Diabetes,D020,H14
+P0612,Patient_612,30,Female,142,53,30.1,175,101,71,186,127,Never,High,2024-09-03,2024-09-04,Hypertension,Hypertension,D020,H18
+P0613,Patient_613,23,Female,166,89,22.7,111,100,62,262,127,Current,Low,2024-09-04,2024-09-05,None,Hypertension,D035,H12
+P0614,Patient_614,66,Male,183,99,26.3,159,100,69,273,179,Former,High,2024-09-05,2024-09-06,Asthma,Hypertension,D045,H18
+P0615,Patient_615,51,Female,170,49,22.3,159,115,80,148,153,Former,Low,2024-09-06,2024-09-07,Hypertension,Heart Disease,D027,H09
+P0616,Patient_616,44,Male,170,115,18.6,137,97,63,236,120,Current,Low,2024-09-07,2024-09-08,Diabetes,Diabetes,D036,H12
+P0617,Patient_617,66,Male,187,64,25.0,143,78,80,242,195,Never,None,2024-09-08,2024-09-09,Heart Disease,Heart Disease,D023,H01
+P0618,Patient_618,49,Female,198,75,31.7,125,61,66,204,82,Current,Low,2024-09-09,2024-09-10,Hypertension,Heart Disease,D017,H06
+P0619,Patient_619,31,Female,141,42,27.8,111,114,61,128,99,Never,None,2024-09-10,2024-09-11,None,Heart Disease,D039,H08
+P0620,Patient_620,87,Male,148,89,27.3,135,111,95,202,144,Never,None,2024-09-11,2024-09-12,None,Hypertension,D023,H04
+P0621,Patient_621,75,Male,180,61,36.9,174,118,99,295,164,Former,Low,2024-09-12,2024-09-13,Heart Disease,None,D022,H07
+P0622,Patient_622,48,Female,147,100,37.5,106,94,64,240,76,Current,High,2024-09-13,2024-09-14,Asthma,Hypertension,D027,H17
+P0623,Patient_623,36,Female,148,93,29.9,120,85,73,156,76,Former,High,2024-09-14,2024-09-15,Heart Disease,Hypertension,D044,H01
+P0624,Patient_624,74,Male,189,112,19.5,134,103,73,255,78,Current,Low,2024-09-15,2024-09-16,Heart Disease,Diabetes,D049,H01
+P0625,Patient_625,57,Female,149,111,36.9,139,100,77,150,113,Current,Low,2024-09-16,2024-09-17,Hypertension,Cancer,D045,H16
+P0626,Patient_626,54,Male,167,87,39.1,156,63,96,135,108,Former,Low,2024-09-17,2024-09-18,None,Hypertension,D048,H17
+P0627,Patient_627,33,Male,162,68,31.4,149,68,99,149,130,Current,None,2024-09-18,2024-09-19,None,Cancer,D022,H02
+P0628,Patient_628,21,Female,174,44,28.2,163,81,60,192,126,Former,None,2024-09-19,2024-09-20,Heart Disease,Cancer,D014,H11
+P0629,Patient_629,51,Female,192,43,27.4,144,88,86,237,157,Former,High,2024-09-20,2024-09-21,Diabetes,Cancer,D044,H06
+P0630,Patient_630,50,Female,153,49,32.8,151,68,76,139,183,Never,Moderate,2024-09-21,2024-09-22,None,None,D016,H09
+P0631,Patient_631,85,Male,199,40,22.2,132,99,76,224,113,Former,None,2024-09-22,2024-09-23,None,Diabetes,D046,H13
+P0632,Patient_632,47,Female,177,78,26.4,161,111,63,130,130,Former,None,2024-09-23,2024-09-24,Asthma,Heart Disease,D006,H07
+P0633,Patient_633,30,Male,171,83,29.0,93,106,85,206,195,Current,High,2024-09-24,2024-09-25,Asthma,Cancer,D032,H02
+P0634,Patient_634,77,Male,159,48,39.8,122,110,69,190,172,Former,High,2024-09-25,2024-09-26,Heart Disease,None,D007,H02
+P0635,Patient_635,19,Female,156,116,20.3,133,86,84,147,160,Former,High,2024-09-26,2024-09-27,Diabetes,None,D015,H07
+P0636,Patient_636,61,Male,190,88,24.1,142,98,72,148,136,Former,None,2024-09-27,2024-09-28,Heart Disease,Cancer,D035,H12
+P0637,Patient_637,42,Male,192,52,22.2,107,85,89,291,173,Former,None,2024-09-28,2024-09-29,Heart Disease,Diabetes,D019,H13
+P0638,Patient_638,36,Female,178,57,19.5,168,96,77,230,161,Never,High,2024-09-29,2024-09-30,Heart Disease,Cancer,D028,H12
+P0639,Patient_639,77,Male,196,115,34.1,96,64,79,290,85,Former,High,2024-09-30,2024-10-01,Asthma,Cancer,D044,H07
+P0640,Patient_640,62,Female,187,105,19.7,176,66,76,277,129,Current,High,2024-10-01,2024-10-02,Asthma,Hypertension,D042,H10
+P0641,Patient_641,79,Female,145,67,34.7,179,92,81,124,187,Never,None,2024-10-02,2024-10-03,Asthma,Heart Disease,D039,H05
+P0642,Patient_642,45,Male,163,82,35.0,140,110,63,167,182,Never,Low,2024-10-03,2024-10-04,Asthma,Cancer,D023,H16
+P0643,Patient_643,55,Female,189,58,39.5,102,110,92,200,106,Never,None,2024-10-04,2024-10-05,None,Cancer,D006,H19
+P0644,Patient_644,43,Female,188,75,36.9,134,112,99,297,110,Former,Moderate,2024-10-05,2024-10-06,Heart Disease,Heart Disease,D041,H09
+P0645,Patient_645,57,Male,150,105,30.2,124,94,92,279,119,Former,Low,2024-10-06,2024-10-07,Hypertension,Heart Disease,D048,H14
+P0646,Patient_646,41,Female,145,92,37.8,162,82,92,194,114,Never,High,2024-10-07,2024-10-08,Heart Disease,Diabetes,D045,H12
+P0647,Patient_647,19,Female,146,72,24.3,110,67,61,220,181,Current,High,2024-10-08,2024-10-09,Diabetes,Heart Disease,D043,H09
+P0648,Patient_648,25,Male,177,77,29.4,121,116,65,285,194,Former,Low,2024-10-09,2024-10-10,Heart Disease,Diabetes,D025,H06
+P0649,Patient_649,62,Male,185,51,26.5,116,73,81,214,166,Never,Moderate,2024-10-10,2024-10-11,Asthma,None,D026,H18
+P0650,Patient_650,83,Male,176,107,23.7,174,103,71,163,133,Never,Low,2024-10-11,2024-10-12,None,None,D016,H15
+P0651,Patient_651,74,Female,169,117,34.5,143,113,64,144,146,Former,Moderate,2024-10-12,2024-10-13,None,None,D023,H19
+P0652,Patient_652,58,Male,190,46,39.2,138,97,99,237,149,Former,High,2024-10-13,2024-10-14,Diabetes,Diabetes,D017,H04
+P0653,Patient_653,70,Female,176,99,21.9,157,83,91,156,119,Former,High,2024-10-14,2024-10-15,Diabetes,Heart Disease,D011,H18
+P0654,Patient_654,49,Male,156,118,28.2,171,84,98,182,186,Current,None,2024-10-15,2024-10-16,Asthma,Heart Disease,D008,H12
+P0655,Patient_655,82,Female,180,55,29.2,151,83,91,188,198,Former,High,2024-10-16,2024-10-17,Diabetes,None,D007,H19
+P0656,Patient_656,39,Female,188,62,32.0,90,99,65,189,83,Never,High,2024-10-17,2024-10-18,Hypertension,Heart Disease,D024,H14
+P0657,Patient_657,83,Male,158,40,39.1,147,66,81,139,154,Current,Low,2024-10-18,2024-10-19,Heart Disease,None,D005,H09
+P0658,Patient_658,59,Male,140,84,36.6,137,74,63,154,143,Current,High,2024-10-19,2024-10-20,Heart Disease,Heart Disease,D043,H16
+P0659,Patient_659,78,Male,166,102,20.0,137,92,98,233,123,Current,Low,2024-10-20,2024-10-21,Hypertension,Hypertension,D007,H01
+P0660,Patient_660,89,Female,144,101,19.0,159,85,76,247,108,Former,None,2024-10-21,2024-10-22,None,Hypertension,D037,H05
+P0661,Patient_661,30,Female,152,66,27.8,127,62,89,261,140,Current,Low,2024-10-22,2024-10-23,Diabetes,Hypertension,D043,H04
+P0662,Patient_662,22,Male,168,82,36.9,142,73,87,294,115,Never,Low,2024-10-23,2024-10-24,Hypertension,None,D047,H18
+P0663,Patient_663,61,Female,185,56,28.8,168,109,91,218,110,Current,Moderate,2024-10-24,2024-10-25,Asthma,Cancer,D048,H06
+P0664,Patient_664,81,Female,188,96,25.4,102,70,87,107,70,Never,Low,2024-10-25,2024-10-26,Asthma,None,D017,H10
+P0665,Patient_665,31,Female,143,74,38.4,172,116,93,114,185,Former,None,2024-10-26,2024-10-27,Diabetes,None,D019,H13
+P0666,Patient_666,36,Female,140,40,35.5,172,79,68,153,127,Never,Low,2024-10-27,2024-10-28,Heart Disease,None,D013,H02
+P0667,Patient_667,37,Female,143,93,31.8,93,65,69,128,156,Former,Low,2024-10-28,2024-10-29,Asthma,None,D003,H11
+P0668,Patient_668,45,Male,146,62,23.8,93,71,74,212,72,Current,Low,2024-10-29,2024-10-30,Hypertension,Diabetes,D002,H19
+P0669,Patient_669,74,Male,171,73,20.7,150,84,65,240,81,Former,High,2024-10-30,2024-10-31,Diabetes,Diabetes,D018,H07
+P0670,Patient_670,71,Male,142,95,27.2,120,76,75,103,112,Former,Low,2024-10-31,2024-11-01,None,None,D018,H03
+P0671,Patient_671,48,Male,160,45,38.1,110,92,83,130,90,Former,None,2024-11-01,2024-11-02,Heart Disease,Cancer,D006,H07
+P0672,Patient_672,20,Female,152,83,33.7,145,94,96,117,130,Former,None,2024-11-02,2024-11-03,Asthma,Diabetes,D014,H19
+P0673,Patient_673,50,Male,152,67,35.6,96,60,74,272,118,Current,None,2024-11-03,2024-11-04,Heart Disease,None,D039,H11
+P0674,Patient_674,21,Female,149,60,31.5,110,81,73,220,170,Former,Low,2024-11-04,2024-11-05,Diabetes,Diabetes,D019,H05
+P0675,Patient_675,27,Male,175,64,32.8,96,102,64,204,86,Never,Low,2024-11-05,2024-11-06,Heart Disease,None,D003,H06
+P0676,Patient_676,21,Male,186,91,25.5,148,119,99,236,72,Former,None,2024-11-06,2024-11-07,None,Heart Disease,D032,H11
+P0677,Patient_677,50,Male,173,79,31.5,104,62,98,282,168,Former,High,2024-11-07,2024-11-08,None,Heart Disease,D038,H14
+P0678,Patient_678,73,Female,198,49,38.0,126,92,75,184,132,Current,High,2024-11-08,2024-11-09,Heart Disease,Heart Disease,D004,H05
+P0679,Patient_679,31,Male,162,107,31.4,108,113,65,248,199,Former,High,2024-11-09,2024-11-10,Asthma,Diabetes,D003,H16
+P0680,Patient_680,28,Female,149,72,36.0,105,93,90,195,117,Never,Moderate,2024-11-10,2024-11-11,Asthma,Hypertension,D001,H17
+P0681,Patient_681,52,Male,160,79,21.5,120,118,90,154,175,Former,None,2024-11-11,2024-11-12,Asthma,Cancer,D027,H17
+P0682,Patient_682,60,Female,165,109,31.3,174,101,64,200,197,Former,None,2024-11-12,2024-11-13,Diabetes,Hypertension,D031,H11
+P0683,Patient_683,37,Male,199,48,38.7,150,108,86,188,72,Never,Moderate,2024-11-13,2024-11-14,None,Hypertension,D021,H06
+P0684,Patient_684,44,Female,161,61,39.2,105,112,79,168,180,Current,Moderate,2024-11-14,2024-11-15,Heart Disease,Cancer,D017,H14
+P0685,Patient_685,35,Female,169,72,20.3,142,107,94,139,85,Never,None,2024-11-15,2024-11-16,Diabetes,Cancer,D027,H15
+P0686,Patient_686,73,Female,176,97,39.7,164,72,77,126,144,Current,None,2024-11-16,2024-11-17,Heart Disease,Diabetes,D009,H01
+P0687,Patient_687,71,Female,180,49,30.2,93,81,72,273,164,Current,None,2024-11-17,2024-11-18,Diabetes,Hypertension,D046,H14
+P0688,Patient_688,83,Female,145,99,24.1,117,107,68,201,146,Current,Moderate,2024-11-18,2024-11-19,Heart Disease,Hypertension,D032,H09
+P0689,Patient_689,58,Male,143,60,26.7,164,88,60,186,76,Never,None,2024-11-19,2024-11-20,Asthma,Diabetes,D002,H03
+P0690,Patient_690,48,Female,195,65,31.1,127,99,75,269,167,Current,High,2024-11-20,2024-11-21,Diabetes,Hypertension,D037,H08
+P0691,Patient_691,82,Male,182,118,29.7,147,64,66,197,132,Former,Moderate,2024-11-21,2024-11-22,Hypertension,Cancer,D021,H01
+P0692,Patient_692,36,Male,179,92,25.3,101,112,60,232,104,Former,Moderate,2024-11-22,2024-11-23,Asthma,Hypertension,D012,H11
+P0693,Patient_693,77,Male,162,72,25.1,142,75,77,171,169,Never,High,2024-11-23,2024-11-24,Heart Disease,Heart Disease,D028,H19
+P0694,Patient_694,89,Female,147,71,34.8,97,84,78,148,104,Current,None,2024-11-24,2024-11-25,Diabetes,Cancer,D042,H16
+P0695,Patient_695,58,Male,184,46,28.0,157,107,94,166,157,Former,Moderate,2024-11-25,2024-11-26,Diabetes,Diabetes,D001,H02
+P0696,Patient_696,56,Male,180,53,37.0,139,79,60,165,108,Never,High,2024-11-26,2024-11-27,None,Cancer,D010,H15
+P0697,Patient_697,85,Female,174,84,39.7,108,74,87,233,72,Never,Moderate,2024-11-27,2024-11-28,Diabetes,Diabetes,D048,H08
+P0698,Patient_698,79,Male,152,103,30.5,102,98,81,176,98,Former,None,2024-11-28,2024-11-29,Heart Disease,Diabetes,D018,H16
+P0699,Patient_699,41,Male,182,112,39.2,110,92,87,164,116,Never,None,2024-11-29,2024-11-30,Diabetes,Heart Disease,D032,H11
+P0700,Patient_700,56,Female,191,40,19.6,125,67,82,261,180,Never,Moderate,2024-11-30,2024-12-01,Diabetes,Diabetes,D013,H17
+P0701,Patient_701,20,Male,196,54,20.0,108,90,96,269,189,Former,None,2024-12-01,2024-12-02,Diabetes,Hypertension,D002,H12
+P0702,Patient_702,23,Male,141,73,29.5,100,72,77,250,119,Never,None,2024-12-02,2024-12-03,Hypertension,Hypertension,D040,H02
+P0703,Patient_703,29,Male,185,63,40.0,114,92,89,177,128,Former,None,2024-12-03,2024-12-04,Hypertension,Heart Disease,D015,H15
+P0704,Patient_704,54,Male,169,104,31.0,154,69,69,135,177,Former,Low,2024-12-04,2024-12-05,None,Hypertension,D015,H04
+P0705,Patient_705,51,Male,194,113,34.5,101,82,86,204,97,Current,Low,2024-12-05,2024-12-06,None,Cancer,D047,H09
+P0706,Patient_706,61,Male,187,49,36.8,114,81,71,118,154,Former,Moderate,2024-12-06,2024-12-07,Hypertension,Diabetes,D046,H03
+P0707,Patient_707,84,Male,183,66,27.7,177,80,62,101,191,Former,High,2024-12-07,2024-12-08,Diabetes,Cancer,D015,H19
+P0708,Patient_708,79,Male,182,95,18.7,118,69,90,177,183,Never,Low,2024-12-08,2024-12-09,Diabetes,Cancer,D017,H02
+P0709,Patient_709,61,Male,161,114,20.4,102,116,97,239,72,Never,None,2024-12-09,2024-12-10,Asthma,Cancer,D005,H05
+P0710,Patient_710,21,Female,157,52,21.3,110,98,62,156,156,Former,None,2024-12-10,2024-12-11,Hypertension,None,D018,H09
+P0711,Patient_711,34,Male,157,76,37.2,165,107,74,111,165,Never,High,2024-12-11,2024-12-12,Hypertension,Diabetes,D030,H07
+P0712,Patient_712,86,Male,141,90,39.2,154,78,77,228,134,Former,Low,2024-12-12,2024-12-13,Heart Disease,None,D044,H08
+P0713,Patient_713,75,Male,164,71,27.1,129,117,85,105,81,Former,High,2024-12-13,2024-12-14,None,Hypertension,D041,H14
+P0714,Patient_714,21,Female,158,96,31.4,139,100,67,146,76,Former,None,2024-12-14,2024-12-15,None,Hypertension,D021,H15
+P0715,Patient_715,27,Male,163,95,30.9,123,63,89,255,106,Former,Moderate,2024-12-15,2024-12-16,Hypertension,Diabetes,D032,H11
+P0716,Patient_716,34,Female,156,55,35.6,98,71,85,299,167,Never,Moderate,2024-12-16,2024-12-17,Asthma,Cancer,D046,H09
+P0717,Patient_717,62,Male,180,63,19.9,109,91,83,153,119,Never,Moderate,2024-12-17,2024-12-18,Asthma,Hypertension,D026,H05
+P0718,Patient_718,39,Male,156,70,36.7,141,91,94,292,96,Former,Moderate,2024-12-18,2024-12-19,Diabetes,Diabetes,D002,H02
+P0719,Patient_719,51,Female,150,66,35.3,153,98,60,269,70,Never,None,2024-12-19,2024-12-20,Heart Disease,Hypertension,D028,H17
+P0720,Patient_720,74,Male,175,99,21.4,104,106,82,100,130,Current,Moderate,2024-12-20,2024-12-21,None,Hypertension,D046,H13
+P0721,Patient_721,51,Female,192,42,29.7,103,117,63,121,103,Former,Low,2024-12-21,2024-12-22,Asthma,Heart Disease,D022,H02
+P0722,Patient_722,87,Female,156,81,33.2,100,91,83,252,186,Never,High,2024-12-22,2024-12-23,Hypertension,Hypertension,D006,H14
+P0723,Patient_723,34,Male,167,107,24.6,102,118,95,173,117,Never,Low,2024-12-23,2024-12-24,Asthma,None,D033,H06
+P0724,Patient_724,45,Female,152,87,29.7,168,82,71,220,167,Current,None,2024-12-24,2024-12-25,Heart Disease,Cancer,D018,H18
+P0725,Patient_725,83,Male,197,99,38.4,142,101,70,162,112,Current,None,2024-12-25,2024-12-26,Heart Disease,Heart Disease,D038,H19
+P0726,Patient_726,52,Female,174,107,23.3,169,60,87,135,94,Current,High,2024-12-26,2024-12-27,Asthma,Hypertension,D017,H13
+P0727,Patient_727,68,Female,158,60,23.1,157,87,98,272,197,Former,Moderate,2024-12-27,2024-12-28,Heart Disease,Heart Disease,D033,H02
+P0728,Patient_728,28,Male,173,91,39.1,101,116,83,116,119,Former,Low,2024-12-28,2024-12-29,None,Diabetes,D018,H04
+P0729,Patient_729,68,Female,187,41,27.7,124,94,61,233,187,Former,Moderate,2024-12-29,2024-12-30,Hypertension,Diabetes,D013,H11
+P0730,Patient_730,78,Female,155,56,28.9,98,109,83,100,180,Former,None,2024-12-30,2024-12-31,Asthma,Diabetes,D024,H07
+P0731,Patient_731,44,Female,154,86,23.4,148,101,78,293,133,Current,Low,2024-12-31,2025-01-01,Diabetes,Cancer,D013,H14
+P0732,Patient_732,70,Female,196,82,20.3,178,96,81,118,140,Current,High,2025-01-01,2025-01-02,Hypertension,None,D036,H04
+P0733,Patient_733,60,Female,145,109,23.7,153,115,79,258,184,Never,High,2025-01-02,2025-01-03,Heart Disease,Diabetes,D049,H12
+P0734,Patient_734,89,Female,190,75,30.4,115,80,61,269,164,Former,None,2025-01-03,2025-01-04,Asthma,Hypertension,D013,H14
+P0735,Patient_735,40,Male,163,101,35.1,134,111,91,162,155,Former,None,2025-01-04,2025-01-05,Diabetes,Hypertension,D018,H08
+P0736,Patient_736,89,Male,189,65,39.9,145,103,75,174,179,Former,Moderate,2025-01-05,2025-01-06,Hypertension,None,D016,H19
+P0737,Patient_737,68,Male,145,77,29.0,154,106,84,156,166,Former,None,2025-01-06,2025-01-07,None,Heart Disease,D034,H16
+P0738,Patient_738,65,Male,192,99,31.7,173,118,77,178,131,Current,High,2025-01-07,2025-01-08,Heart Disease,Hypertension,D004,H10
+P0739,Patient_739,29,Male,169,90,29.0,134,63,65,291,109,Former,Moderate,2025-01-08,2025-01-09,Asthma,Diabetes,D042,H16
+P0740,Patient_740,68,Female,142,117,18.6,151,97,62,217,95,Current,Moderate,2025-01-09,2025-01-10,Hypertension,Heart Disease,D026,H06
+P0741,Patient_741,37,Male,156,53,19.3,142,81,87,116,85,Former,None,2025-01-10,2025-01-11,Heart Disease,Diabetes,D026,H05
+P0742,Patient_742,18,Female,140,68,21.4,166,68,68,285,119,Current,Low,2025-01-11,2025-01-12,Diabetes,Hypertension,D008,H15
+P0743,Patient_743,37,Female,170,98,37.3,155,78,79,285,145,Never,Low,2025-01-12,2025-01-13,Hypertension,Heart Disease,D043,H06
+P0744,Patient_744,18,Male,144,94,38.7,95,89,84,267,141,Current,Low,2025-01-13,2025-01-14,None,Diabetes,D011,H03
+P0745,Patient_745,33,Male,198,104,21.8,174,115,82,232,91,Former,High,2025-01-14,2025-01-15,Diabetes,Hypertension,D017,H02
+P0746,Patient_746,29,Male,172,97,23.1,95,113,88,278,199,Former,None,2025-01-15,2025-01-16,Asthma,Heart Disease,D018,H17
+P0747,Patient_747,25,Female,183,105,33.0,159,90,67,234,133,Former,High,2025-01-16,2025-01-17,Hypertension,Hypertension,D009,H19
+P0748,Patient_748,33,Female,167,46,21.8,112,79,75,183,90,Never,Low,2025-01-17,2025-01-18,Asthma,Heart Disease,D019,H18
+P0749,Patient_749,62,Female,166,119,27.5,94,101,79,106,93,Former,Moderate,2025-01-18,2025-01-19,Diabetes,Diabetes,D037,H13
+P0750,Patient_750,48,Male,183,71,30.0,156,61,84,145,157,Never,None,2025-01-19,2025-01-20,None,None,D028,H14
+P0751,Patient_751,66,Female,177,52,34.3,101,119,74,144,197,Never,None,2025-01-20,2025-01-21,Hypertension,Cancer,D033,H01
+P0752,Patient_752,30,Male,155,48,19.2,142,68,69,116,188,Never,Moderate,2025-01-21,2025-01-22,Hypertension,Heart Disease,D043,H18
+P0753,Patient_753,80,Female,193,88,27.6,90,72,96,209,110,Former,Low,2025-01-22,2025-01-23,Hypertension,Hypertension,D038,H03
+P0754,Patient_754,75,Female,157,68,22.7,129,109,82,171,94,Former,Moderate,2025-01-23,2025-01-24,None,Hypertension,D018,H19
+P0755,Patient_755,44,Female,178,63,21.0,158,110,61,250,115,Former,None,2025-01-24,2025-01-25,Diabetes,Cancer,D001,H05
+P0756,Patient_756,50,Female,144,90,19.3,104,93,92,291,105,Never,Low,2025-01-25,2025-01-26,None,Heart Disease,D018,H14
+P0757,Patient_757,21,Male,145,83,37.6,148,110,91,160,154,Never,None,2025-01-26,2025-01-27,Heart Disease,Hypertension,D017,H01
+P0758,Patient_758,29,Female,173,118,39.2,120,116,64,186,82,Never,High,2025-01-27,2025-01-28,Diabetes,None,D043,H10
+P0759,Patient_759,33,Male,158,63,27.0,168,61,81,274,100,Former,Low,2025-01-28,2025-01-29,Asthma,None,D011,H13
+P0760,Patient_760,21,Female,168,93,36.0,103,97,64,216,147,Current,None,2025-01-29,2025-01-30,Diabetes,Cancer,D035,H19
+P0761,Patient_761,47,Male,146,89,31.0,93,67,77,106,147,Current,High,2025-01-30,2025-01-31,Asthma,Diabetes,D017,H07
+P0762,Patient_762,81,Male,150,62,24.4,115,65,67,232,179,Never,High,2025-01-31,2025-02-01,None,Cancer,D027,H05
+P0763,Patient_763,82,Female,187,66,24.6,176,83,68,205,181,Current,Low,2025-02-01,2025-02-02,Diabetes,Hypertension,D045,H16
+P0764,Patient_764,40,Female,168,110,33.2,163,63,86,209,198,Current,Low,2025-02-02,2025-02-03,Asthma,Heart Disease,D037,H07
+P0765,Patient_765,83,Male,157,90,24.5,171,94,75,276,144,Never,Low,2025-02-03,2025-02-04,Hypertension,Hypertension,D042,H02
+P0766,Patient_766,79,Male,188,93,19.0,163,106,62,285,144,Current,None,2025-02-04,2025-02-05,None,None,D024,H16
+P0767,Patient_767,66,Male,181,87,19.4,173,84,90,221,199,Current,Low,2025-02-05,2025-02-06,Heart Disease,Diabetes,D041,H11
+P0768,Patient_768,42,Male,189,65,20.2,152,70,89,205,192,Never,High,2025-02-06,2025-02-07,Asthma,Hypertension,D036,H08
+P0769,Patient_769,66,Male,145,76,26.4,157,96,60,290,80,Current,Low,2025-02-07,2025-02-08,Asthma,Heart Disease,D047,H01
+P0770,Patient_770,80,Female,166,78,25.6,143,113,73,184,133,Current,High,2025-02-08,2025-02-09,None,Cancer,D047,H17
+P0771,Patient_771,28,Male,193,66,38.0,121,95,93,285,168,Former,High,2025-02-09,2025-02-10,Asthma,None,D045,H18
+P0772,Patient_772,37,Male,152,119,19.3,146,105,91,101,129,Never,None,2025-02-10,2025-02-11,Diabetes,Diabetes,D015,H02
+P0773,Patient_773,80,Male,195,49,27.7,174,95,88,147,72,Never,Moderate,2025-02-11,2025-02-12,Diabetes,Hypertension,D031,H10
+P0774,Patient_774,28,Male,152,118,23.0,168,74,68,187,166,Current,Low,2025-02-12,2025-02-13,Asthma,Diabetes,D041,H09
+P0775,Patient_775,55,Female,142,94,34.0,110,86,69,291,98,Current,None,2025-02-13,2025-02-14,Hypertension,None,D028,H16
+P0776,Patient_776,51,Female,148,109,22.6,171,71,95,193,135,Never,None,2025-02-14,2025-02-15,None,Heart Disease,D047,H06
+P0777,Patient_777,65,Male,181,43,19.5,131,65,68,159,122,Current,Moderate,2025-02-15,2025-02-16,None,Hypertension,D004,H04
+P0778,Patient_778,84,Male,196,104,31.2,146,77,95,184,161,Former,High,2025-02-16,2025-02-17,Heart Disease,Cancer,D001,H07
+P0779,Patient_779,64,Female,140,72,23.2,92,84,90,189,78,Current,Low,2025-02-17,2025-02-18,Heart Disease,Cancer,D005,H16
+P0780,Patient_780,86,Female,186,51,25.2,113,100,75,292,95,Former,Low,2025-02-18,2025-02-19,Hypertension,None,D049,H08
+P0781,Patient_781,75,Male,147,85,32.4,177,103,73,203,73,Current,Moderate,2025-02-19,2025-02-20,Asthma,Hypertension,D027,H10
+P0782,Patient_782,27,Male,167,95,19.3,171,65,66,193,119,Never,Low,2025-02-20,2025-02-21,None,Hypertension,D024,H13
+P0783,Patient_783,19,Male,157,97,35.8,178,102,71,162,126,Current,None,2025-02-21,2025-02-22,Asthma,Diabetes,D036,H16
+P0784,Patient_784,44,Male,186,68,32.7,95,109,68,296,112,Former,Moderate,2025-02-22,2025-02-23,Diabetes,Hypertension,D017,H17
+P0785,Patient_785,18,Female,168,113,29.6,140,102,84,152,182,Never,High,2025-02-23,2025-02-24,Hypertension,Diabetes,D040,H11
+P0786,Patient_786,79,Female,179,70,26.8,138,80,95,148,145,Former,High,2025-02-24,2025-02-25,Asthma,None,D028,H14
+P0787,Patient_787,48,Female,165,59,28.2,105,99,76,157,83,Never,Low,2025-02-25,2025-02-26,Hypertension,None,D016,H15
+P0788,Patient_788,29,Female,153,85,19.9,101,60,66,286,125,Current,None,2025-02-26,2025-02-27,Diabetes,Heart Disease,D045,H02
+P0789,Patient_789,65,Female,192,76,32.6,149,116,68,159,145,Never,High,2025-02-27,2025-02-28,Diabetes,Heart Disease,D037,H15
+P0790,Patient_790,42,Male,188,57,27.9,137,106,61,120,100,Former,None,2025-02-28,2025-03-01,Asthma,Hypertension,D021,H19
+P0791,Patient_791,41,Female,143,41,21.5,163,93,86,201,129,Former,Moderate,2025-03-01,2025-03-02,Hypertension,Heart Disease,D046,H07
+P0792,Patient_792,56,Female,174,67,18.7,146,86,69,130,90,Never,Low,2025-03-02,2025-03-03,Hypertension,Hypertension,D019,H04
+P0793,Patient_793,20,Female,140,103,25.4,91,109,71,286,107,Former,Low,2025-03-03,2025-03-04,Diabetes,Hypertension,D030,H16
+P0794,Patient_794,64,Male,196,87,25.6,136,77,75,240,92,Never,Low,2025-03-04,2025-03-05,Diabetes,Hypertension,D021,H03
+P0795,Patient_795,83,Female,143,70,33.1,112,69,81,250,75,Never,Moderate,2025-03-05,2025-03-06,Diabetes,Heart Disease,D024,H18
+P0796,Patient_796,29,Female,164,103,24.5,174,66,74,139,141,Former,Moderate,2025-03-06,2025-03-07,Heart Disease,None,D003,H05
+P0797,Patient_797,38,Male,180,71,27.4,117,62,76,287,163,Never,None,2025-03-07,2025-03-08,None,Hypertension,D006,H15
+P0798,Patient_798,72,Male,141,66,19.5,95,101,69,150,107,Current,High,2025-03-08,2025-03-09,Hypertension,Diabetes,D006,H16
+P0799,Patient_799,69,Female,150,105,28.6,163,63,98,218,73,Never,Low,2025-03-09,2025-03-10,Hypertension,Cancer,D044,H19
+P0800,Patient_800,34,Female,180,48,36.9,169,113,83,186,102,Never,Moderate,2025-03-10,2025-03-11,Heart Disease,Cancer,D042,H19
+P0801,Patient_801,61,Female,187,117,27.5,175,81,63,280,78,Current,Low,2025-03-11,2025-03-12,Diabetes,Cancer,D002,H07
+P0802,Patient_802,60,Male,181,102,18.5,93,66,93,198,79,Current,Low,2025-03-12,2025-03-13,Asthma,Heart Disease,D023,H13
+P0803,Patient_803,82,Female,177,56,34.8,137,82,96,246,189,Current,High,2025-03-13,2025-03-14,Hypertension,Cancer,D049,H04
+P0804,Patient_804,37,Male,153,113,20.3,170,97,69,114,89,Former,Low,2025-03-14,2025-03-15,Diabetes,Heart Disease,D046,H19
+P0805,Patient_805,60,Female,159,56,19.7,96,71,76,157,132,Current,Low,2025-03-15,2025-03-16,Diabetes,Cancer,D009,H02
+P0806,Patient_806,20,Male,151,113,32.8,153,99,78,267,83,Current,Low,2025-03-16,2025-03-17,Hypertension,None,D032,H05
+P0807,Patient_807,54,Female,175,64,38.3,100,71,60,242,92,Current,Moderate,2025-03-17,2025-03-18,Asthma,Hypertension,D009,H17
+P0808,Patient_808,38,Male,167,86,32.7,172,80,84,253,110,Former,Moderate,2025-03-18,2025-03-19,None,Hypertension,D039,H03
+P0809,Patient_809,36,Male,199,40,33.7,119,87,93,161,171,Former,None,2025-03-19,2025-03-20,Heart Disease,Hypertension,D009,H19
+P0810,Patient_810,42,Male,189,104,33.1,94,98,92,133,183,Never,Low,2025-03-20,2025-03-21,Asthma,Hypertension,D006,H14
+P0811,Patient_811,25,Female,196,72,24.5,144,75,69,140,97,Never,None,2025-03-21,2025-03-22,Diabetes,Diabetes,D021,H13
+P0812,Patient_812,46,Female,149,79,36.2,146,99,92,110,194,Current,High,2025-03-22,2025-03-23,None,None,D012,H09
+P0813,Patient_813,37,Male,182,48,38.7,133,114,61,174,85,Current,Moderate,2025-03-23,2025-03-24,None,Heart Disease,D027,H13
+P0814,Patient_814,54,Male,194,42,23.8,99,117,95,270,149,Never,Low,2025-03-24,2025-03-25,Asthma,Heart Disease,D035,H18
+P0815,Patient_815,56,Male,155,119,21.8,119,114,90,273,92,Current,High,2025-03-25,2025-03-26,Diabetes,None,D010,H11
+P0816,Patient_816,53,Male,196,61,29.8,142,75,91,176,123,Former,Moderate,2025-03-26,2025-03-27,Hypertension,Cancer,D028,H07
+P0817,Patient_817,83,Female,163,80,19.8,171,94,76,184,198,Current,None,2025-03-27,2025-03-28,None,Cancer,D034,H13
+P0818,Patient_818,25,Female,197,111,36.4,158,92,60,270,87,Former,High,2025-03-28,2025-03-29,Heart Disease,Hypertension,D006,H17
+P0819,Patient_819,45,Male,183,61,21.8,110,85,87,100,135,Current,Moderate,2025-03-29,2025-03-30,Diabetes,None,D018,H12
+P0820,Patient_820,43,Female,197,89,25.3,179,109,67,118,151,Former,None,2025-03-30,2025-03-31,None,Diabetes,D018,H15
+P0821,Patient_821,40,Female,153,103,29.3,159,90,98,296,125,Never,Low,2025-03-31,2025-04-01,Diabetes,Diabetes,D005,H10
+P0822,Patient_822,71,Female,173,97,19.1,107,76,71,175,131,Never,Low,2025-04-01,2025-04-02,Hypertension,Diabetes,D022,H07
+P0823,Patient_823,74,Female,167,94,34.0,154,109,95,232,109,Current,Low,2025-04-02,2025-04-03,Asthma,Heart Disease,D043,H09
+P0824,Patient_824,56,Female,197,99,39.9,93,78,97,166,91,Former,Moderate,2025-04-03,2025-04-04,Diabetes,Heart Disease,D021,H12
+P0825,Patient_825,72,Female,190,46,27.3,123,79,65,228,154,Never,High,2025-04-04,2025-04-05,Diabetes,Hypertension,D049,H16
+P0826,Patient_826,34,Male,174,81,36.2,110,113,87,142,92,Current,None,2025-04-05,2025-04-06,Hypertension,Diabetes,D008,H08
+P0827,Patient_827,34,Female,160,46,30.4,176,72,70,252,122,Never,None,2025-04-06,2025-04-07,None,Heart Disease,D044,H04
+P0828,Patient_828,22,Male,188,47,21.5,92,116,63,206,101,Former,High,2025-04-07,2025-04-08,Diabetes,Hypertension,D034,H09
+P0829,Patient_829,71,Female,172,41,20.0,169,63,99,110,126,Never,None,2025-04-08,2025-04-09,Asthma,None,D017,H05
+P0830,Patient_830,22,Male,157,73,38.1,101,79,96,294,140,Never,None,2025-04-09,2025-04-10,Heart Disease,None,D034,H04
+P0831,Patient_831,21,Female,140,63,29.2,126,97,69,187,163,Never,High,2025-04-10,2025-04-11,Heart Disease,None,D033,H06
+P0832,Patient_832,33,Male,171,102,38.6,174,67,96,267,155,Former,High,2025-04-11,2025-04-12,Asthma,Diabetes,D028,H16
+P0833,Patient_833,24,Female,140,55,34.0,119,80,84,276,152,Former,None,2025-04-12,2025-04-13,None,Hypertension,D002,H09
+P0834,Patient_834,83,Female,175,93,38.0,147,76,95,153,187,Former,None,2025-04-13,2025-04-14,Hypertension,Cancer,D011,H16
+P0835,Patient_835,74,Female,164,57,39.9,112,88,71,291,80,Current,High,2025-04-14,2025-04-15,Hypertension,Heart Disease,D003,H10
+P0836,Patient_836,70,Male,142,106,31.2,114,103,84,186,123,Never,None,2025-04-15,2025-04-16,Hypertension,Heart Disease,D033,H06
+P0837,Patient_837,18,Female,170,77,34.6,164,99,76,156,112,Never,None,2025-04-16,2025-04-17,Asthma,Heart Disease,D026,H10
+P0838,Patient_838,58,Male,195,118,23.4,125,101,92,286,135,Former,None,2025-04-17,2025-04-18,Asthma,Heart Disease,D042,H05
+P0839,Patient_839,81,Male,177,104,31.7,173,101,80,269,158,Former,Moderate,2025-04-18,2025-04-19,None,Heart Disease,D027,H15
+P0840,Patient_840,62,Female,182,71,37.4,164,98,93,119,112,Former,Low,2025-04-19,2025-04-20,Diabetes,Diabetes,D012,H15
+P0841,Patient_841,83,Male,160,79,20.0,165,81,62,180,178,Never,High,2025-04-20,2025-04-21,Heart Disease,None,D007,H11
+P0842,Patient_842,87,Female,163,67,31.5,168,92,67,141,115,Former,None,2025-04-21,2025-04-22,Hypertension,Diabetes,D034,H11
+P0843,Patient_843,69,Male,156,97,36.6,97,116,90,169,187,Former,Low,2025-04-22,2025-04-23,None,Heart Disease,D014,H18
+P0844,Patient_844,61,Male,199,114,22.9,111,97,89,225,179,Current,None,2025-04-23,2025-04-24,None,Hypertension,D038,H10
+P0845,Patient_845,42,Female,161,71,33.5,119,112,91,237,72,Current,High,2025-04-24,2025-04-25,Asthma,Cancer,D003,H15
+P0846,Patient_846,48,Female,189,77,33.3,159,103,81,112,191,Former,High,2025-04-25,2025-04-26,Hypertension,None,D024,H17
+P0847,Patient_847,89,Male,198,99,23.0,92,107,86,104,97,Never,None,2025-04-26,2025-04-27,None,Diabetes,D009,H06
+P0848,Patient_848,81,Male,150,60,19.4,171,64,91,134,93,Former,None,2025-04-27,2025-04-28,Diabetes,Hypertension,D032,H05
+P0849,Patient_849,76,Male,188,48,29.2,122,79,93,105,166,Former,Low,2025-04-28,2025-04-29,Hypertension,None,D040,H04
+P0850,Patient_850,49,Male,151,111,30.0,131,106,97,212,105,Former,Moderate,2025-04-29,2025-04-30,Asthma,Diabetes,D046,H15
+P0851,Patient_851,49,Male,145,102,34.2,115,70,66,131,167,Current,Low,2025-04-30,2025-05-01,Hypertension,Diabetes,D023,H17
+P0852,Patient_852,54,Female,157,91,21.4,132,114,65,165,102,Former,None,2025-05-01,2025-05-02,Heart Disease,Cancer,D008,H16
+P0853,Patient_853,22,Female,198,111,27.2,110,119,61,141,126,Never,High,2025-05-02,2025-05-03,Hypertension,Heart Disease,D018,H11
+P0854,Patient_854,75,Male,193,108,23.0,126,115,81,292,172,Never,Low,2025-05-03,2025-05-04,Diabetes,Diabetes,D002,H15
+P0855,Patient_855,22,Female,194,119,23.5,118,70,86,154,86,Never,High,2025-05-04,2025-05-05,None,Heart Disease,D024,H10
+P0856,Patient_856,55,Female,187,83,38.0,105,76,84,124,173,Never,None,2025-05-05,2025-05-06,Hypertension,Cancer,D012,H02
+P0857,Patient_857,28,Female,154,45,29.3,96,82,88,139,194,Former,Low,2025-05-06,2025-05-07,Asthma,Diabetes,D026,H11
+P0858,Patient_858,52,Female,178,82,25.1,96,109,61,140,185,Never,Low,2025-05-07,2025-05-08,Diabetes,Hypertension,D047,H09
+P0859,Patient_859,30,Male,190,75,19.6,105,94,99,180,78,Former,High,2025-05-08,2025-05-09,Asthma,Cancer,D019,H08
+P0860,Patient_860,40,Male,178,82,20.3,131,83,62,177,103,Former,Low,2025-05-09,2025-05-10,Heart Disease,Hypertension,D008,H13
+P0861,Patient_861,25,Female,175,105,23.2,109,96,66,152,190,Never,None,2025-05-10,2025-05-11,Heart Disease,None,D041,H07
+P0862,Patient_862,87,Female,181,98,20.1,110,80,65,165,82,Current,High,2025-05-11,2025-05-12,None,None,D047,H16
+P0863,Patient_863,71,Female,166,116,39.0,158,97,83,212,74,Former,High,2025-05-12,2025-05-13,Asthma,None,D041,H04
+P0864,Patient_864,84,Female,149,61,19.5,173,83,88,182,91,Former,Moderate,2025-05-13,2025-05-14,Heart Disease,Diabetes,D028,H08
+P0865,Patient_865,56,Female,144,62,39.0,121,102,88,116,126,Never,Low,2025-05-14,2025-05-15,Asthma,Hypertension,D031,H10
+P0866,Patient_866,44,Male,141,63,23.0,132,115,89,254,117,Former,Moderate,2025-05-15,2025-05-16,Hypertension,Cancer,D010,H18
+P0867,Patient_867,62,Male,144,93,38.5,99,83,76,115,168,Former,Low,2025-05-16,2025-05-17,None,Hypertension,D021,H17
+P0868,Patient_868,77,Male,198,58,28.7,100,113,89,184,165,Never,Low,2025-05-17,2025-05-18,Diabetes,None,D009,H13
+P0869,Patient_869,68,Female,169,88,26.4,162,92,65,288,103,Current,Moderate,2025-05-18,2025-05-19,Asthma,Heart Disease,D043,H07
+P0870,Patient_870,50,Male,172,46,20.1,175,61,94,262,96,Never,Moderate,2025-05-19,2025-05-20,Diabetes,None,D023,H15
+P0871,Patient_871,32,Male,172,42,23.1,156,98,69,180,167,Never,High,2025-05-20,2025-05-21,Heart Disease,Hypertension,D040,H19
+P0872,Patient_872,68,Female,146,108,33.4,144,69,70,126,187,Current,None,2025-05-21,2025-05-22,Diabetes,None,D003,H13
+P0873,Patient_873,37,Male,179,119,28.3,127,80,93,251,147,Former,None,2025-05-22,2025-05-23,Diabetes,Cancer,D034,H10
+P0874,Patient_874,59,Male,177,114,39.1,130,76,98,234,99,Current,Low,2025-05-23,2025-05-24,Diabetes,Cancer,D033,H11
+P0875,Patient_875,52,Male,149,77,39.5,102,93,79,144,96,Former,High,2025-05-24,2025-05-25,Diabetes,Heart Disease,D043,H15
+P0876,Patient_876,49,Female,175,92,32.1,130,102,72,129,150,Never,High,2025-05-25,2025-05-26,Diabetes,Cancer,D024,H03
+P0877,Patient_877,66,Male,193,54,29.6,159,112,96,214,100,Never,High,2025-05-26,2025-05-27,Heart Disease,Diabetes,D036,H04
+P0878,Patient_878,74,Female,162,43,27.9,136,97,84,122,114,Never,Moderate,2025-05-27,2025-05-28,Asthma,Diabetes,D044,H07
+P0879,Patient_879,83,Male,193,111,25.4,160,106,76,236,85,Current,High,2025-05-28,2025-05-29,Diabetes,Cancer,D038,H02
+P0880,Patient_880,64,Female,151,72,20.9,163,117,72,155,117,Never,Low,2025-05-29,2025-05-30,Hypertension,Hypertension,D001,H14
+P0881,Patient_881,74,Male,181,67,29.4,168,81,61,111,94,Never,High,2025-05-30,2025-05-31,Asthma,Cancer,D020,H16
+P0882,Patient_882,52,Male,148,97,23.3,103,108,78,139,138,Never,Low,2025-05-31,2025-06-01,Hypertension,Hypertension,D027,H18
+P0883,Patient_883,77,Female,143,41,38.2,140,80,97,275,133,Never,Low,2025-06-01,2025-06-02,Heart Disease,None,D018,H09
+P0884,Patient_884,79,Female,177,101,34.2,134,64,63,188,154,Current,Low,2025-06-02,2025-06-03,Asthma,Hypertension,D038,H11
+P0885,Patient_885,70,Female,196,53,33.0,160,60,72,297,90,Never,None,2025-06-03,2025-06-04,None,Hypertension,D045,H06
+P0886,Patient_886,71,Female,151,96,26.2,138,70,79,122,169,Current,Low,2025-06-04,2025-06-05,Asthma,Cancer,D041,H11
+P0887,Patient_887,72,Female,144,52,34.0,144,76,80,260,119,Never,Moderate,2025-06-05,2025-06-06,None,Diabetes,D028,H04
+P0888,Patient_888,52,Female,168,111,31.0,118,95,70,102,118,Never,Low,2025-06-06,2025-06-07,Hypertension,Cancer,D029,H14
+P0889,Patient_889,63,Female,156,95,34.2,101,100,81,189,175,Former,None,2025-06-07,2025-06-08,Hypertension,None,D001,H18
+P0890,Patient_890,42,Male,171,40,31.7,108,105,81,267,88,Current,Low,2025-06-08,2025-06-09,Heart Disease,Diabetes,D044,H15
+P0891,Patient_891,54,Male,194,82,34.5,96,83,64,286,73,Former,Low,2025-06-09,2025-06-10,Diabetes,Hypertension,D008,H15
+P0892,Patient_892,89,Female,169,74,30.9,95,103,86,107,153,Former,High,2025-06-10,2025-06-11,Diabetes,Cancer,D002,H04
+P0893,Patient_893,66,Male,173,75,26.7,94,72,70,232,158,Current,Moderate,2025-06-11,2025-06-12,None,Diabetes,D036,H07
+P0894,Patient_894,46,Male,177,71,29.1,146,76,87,119,181,Former,None,2025-06-12,2025-06-13,Hypertension,Diabetes,D003,H17
+P0895,Patient_895,47,Female,199,100,33.2,96,75,74,200,191,Never,None,2025-06-13,2025-06-14,Asthma,Diabetes,D019,H09
+P0896,Patient_896,79,Female,142,62,20.8,171,113,80,139,73,Former,Low,2025-06-14,2025-06-15,Hypertension,Diabetes,D009,H08
+P0897,Patient_897,57,Female,174,71,35.8,91,60,84,294,70,Never,Moderate,2025-06-15,2025-06-16,Hypertension,Heart Disease,D019,H04
+P0898,Patient_898,83,Female,159,111,31.6,94,98,77,274,87,Former,Low,2025-06-16,2025-06-17,None,Heart Disease,D037,H08
+P0899,Patient_899,29,Female,161,50,20.9,112,92,74,224,198,Former,Moderate,2025-06-17,2025-06-18,None,Heart Disease,D007,H12
+P0900,Patient_900,56,Female,182,100,28.6,138,89,75,265,130,Former,Low,2025-06-18,2025-06-19,Diabetes,Heart Disease,D008,H09
+P0901,Patient_901,88,Male,170,96,21.2,152,71,80,106,198,Never,None,2025-06-19,2025-06-20,Asthma,Diabetes,D013,H06
+P0902,Patient_902,32,Female,198,67,33.7,100,67,83,236,136,Former,Moderate,2025-06-20,2025-06-21,Heart Disease,Cancer,D049,H15
+P0903,Patient_903,47,Female,155,87,35.5,92,89,94,185,133,Never,High,2025-06-21,2025-06-22,Asthma,Diabetes,D010,H09
+P0904,Patient_904,26,Female,190,117,30.5,115,112,72,193,103,Former,High,2025-06-22,2025-06-23,None,Diabetes,D040,H19
+P0905,Patient_905,29,Male,144,108,24.9,119,68,84,294,190,Current,Low,2025-06-23,2025-06-24,Heart Disease,Heart Disease,D025,H15
+P0906,Patient_906,85,Male,168,57,27.6,127,114,87,226,132,Current,None,2025-06-24,2025-06-25,Diabetes,Heart Disease,D012,H13
+P0907,Patient_907,73,Female,158,62,19.6,167,114,79,266,169,Never,Low,2025-06-25,2025-06-26,Asthma,None,D003,H18
+P0908,Patient_908,45,Male,156,105,37.7,108,100,85,269,88,Former,None,2025-06-26,2025-06-27,Diabetes,None,D034,H08
+P0909,Patient_909,27,Male,162,59,24.9,102,89,62,153,144,Former,Low,2025-06-27,2025-06-28,Asthma,Hypertension,D048,H08
+P0910,Patient_910,36,Male,199,80,23.1,94,112,92,217,106,Current,Moderate,2025-06-28,2025-06-29,Asthma,Heart Disease,D022,H18
+P0911,Patient_911,43,Male,191,48,27.2,95,81,72,196,136,Former,High,2025-06-29,2025-06-30,Asthma,Cancer,D008,H10
+P0912,Patient_912,80,Female,164,108,30.7,92,94,76,110,93,Never,Low,2025-06-30,2025-07-01,Diabetes,Diabetes,D028,H12
+P0913,Patient_913,86,Female,152,45,21.0,139,61,64,286,80,Current,Moderate,2025-07-01,2025-07-02,Diabetes,Hypertension,D005,H17
+P0914,Patient_914,46,Male,154,42,28.7,108,95,94,173,176,Former,High,2025-07-02,2025-07-03,Asthma,Heart Disease,D019,H07
+P0915,Patient_915,39,Male,191,64,34.1,167,119,95,258,129,Former,Moderate,2025-07-03,2025-07-04,Diabetes,Heart Disease,D006,H14
+P0916,Patient_916,56,Male,183,114,26.6,143,102,67,180,124,Never,High,2025-07-04,2025-07-05,Diabetes,Diabetes,D022,H03
+P0917,Patient_917,88,Male,153,85,34.8,141,109,65,120,125,Never,Moderate,2025-07-05,2025-07-06,Diabetes,Hypertension,D016,H04
+P0918,Patient_918,61,Male,164,61,22.3,176,60,96,284,102,Former,None,2025-07-06,2025-07-07,Asthma,Cancer,D041,H13
+P0919,Patient_919,33,Male,164,91,21.9,93,76,90,187,104,Never,None,2025-07-07,2025-07-08,Asthma,Diabetes,D001,H07
+P0920,Patient_920,41,Female,152,44,25.8,141,82,98,112,148,Current,Low,2025-07-08,2025-07-09,Hypertension,Diabetes,D048,H14
+P0921,Patient_921,56,Female,158,105,38.3,159,80,79,185,71,Former,None,2025-07-09,2025-07-10,None,Heart Disease,D002,H01
+P0922,Patient_922,73,Male,163,50,34.8,152,82,88,239,89,Former,Low,2025-07-10,2025-07-11,Hypertension,Hypertension,D033,H05
+P0923,Patient_923,65,Male,144,40,34.4,176,94,95,200,126,Current,Low,2025-07-11,2025-07-12,None,Cancer,D037,H17
+P0924,Patient_924,80,Male,161,78,31.9,157,76,88,107,80,Never,Moderate,2025-07-12,2025-07-13,None,Diabetes,D008,H02
+P0925,Patient_925,21,Female,190,112,30.8,145,71,89,104,177,Never,Moderate,2025-07-13,2025-07-14,None,None,D008,H14
+P0926,Patient_926,69,Female,198,109,39.8,136,80,92,226,82,Never,High,2025-07-14,2025-07-15,Hypertension,None,D020,H06
+P0927,Patient_927,20,Female,141,63,39.0,179,76,70,145,80,Former,None,2025-07-15,2025-07-16,Diabetes,Cancer,D028,H14
+P0928,Patient_928,84,Male,190,104,25.9,122,86,62,243,96,Never,None,2025-07-16,2025-07-17,Hypertension,Cancer,D004,H10
+P0929,Patient_929,32,Female,170,43,28.4,150,65,66,252,146,Never,Low,2025-07-17,2025-07-18,Hypertension,Diabetes,D016,H07
+P0930,Patient_930,47,Male,171,102,24.3,118,108,91,221,164,Current,None,2025-07-18,2025-07-19,Diabetes,Heart Disease,D049,H17
+P0931,Patient_931,34,Male,190,91,26.0,95,70,92,229,175,Former,Moderate,2025-07-19,2025-07-20,Heart Disease,Cancer,D016,H01
+P0932,Patient_932,39,Female,143,118,21.8,150,64,65,152,138,Current,None,2025-07-20,2025-07-21,Asthma,Hypertension,D013,H13
+P0933,Patient_933,24,Male,141,96,32.7,176,63,72,178,188,Never,High,2025-07-21,2025-07-22,Heart Disease,Cancer,D003,H05
+P0934,Patient_934,23,Female,179,57,35.7,119,63,97,132,129,Former,Low,2025-07-22,2025-07-23,Heart Disease,Cancer,D019,H14
+P0935,Patient_935,63,Male,199,82,20.1,145,100,99,265,94,Current,Low,2025-07-23,2025-07-24,Diabetes,Cancer,D004,H11
+P0936,Patient_936,70,Female,172,114,36.1,146,115,95,290,156,Never,Low,2025-07-24,2025-07-25,Diabetes,None,D040,H16
+P0937,Patient_937,41,Female,173,64,31.8,152,108,99,124,81,Current,Moderate,2025-07-25,2025-07-26,Asthma,Diabetes,D022,H02
+P0938,Patient_938,71,Male,168,50,31.7,92,119,80,290,164,Former,High,2025-07-26,2025-07-27,Heart Disease,Heart Disease,D008,H10
+P0939,Patient_939,70,Female,181,113,20.9,120,115,78,154,170,Former,High,2025-07-27,2025-07-28,Asthma,None,D034,H15
+P0940,Patient_940,18,Female,155,91,27.4,97,109,93,232,105,Never,High,2025-07-28,2025-07-29,Asthma,Cancer,D007,H03
+P0941,Patient_941,68,Male,195,92,19.1,112,100,98,281,74,Never,Moderate,2025-07-29,2025-07-30,Asthma,Diabetes,D026,H10
+P0942,Patient_942,84,Female,160,83,24.8,96,102,75,268,81,Current,High,2025-07-30,2025-07-31,Asthma,Cancer,D024,H10
+P0943,Patient_943,76,Male,191,51,32.2,109,118,95,229,160,Former,High,2025-07-31,2025-08-01,Diabetes,None,D022,H07
+P0944,Patient_944,67,Female,155,87,20.7,176,81,66,128,101,Former,Moderate,2025-08-01,2025-08-02,None,None,D020,H17
+P0945,Patient_945,39,Female,140,88,28.7,148,119,93,289,108,Never,Moderate,2025-08-02,2025-08-03,Diabetes,Diabetes,D033,H16
+P0946,Patient_946,89,Female,153,93,37.8,163,116,75,135,100,Former,High,2025-08-03,2025-08-04,Hypertension,Cancer,D028,H12
+P0947,Patient_947,73,Female,179,110,34.8,111,113,66,198,196,Former,Moderate,2025-08-04,2025-08-05,Hypertension,None,D048,H18
+P0948,Patient_948,36,Female,162,116,28.2,107,106,70,131,90,Never,None,2025-08-05,2025-08-06,Asthma,Hypertension,D035,H05
+P0949,Patient_949,86,Female,166,51,35.4,111,109,71,170,71,Current,None,2025-08-06,2025-08-07,Asthma,Diabetes,D001,H16
+P0950,Patient_950,79,Female,141,92,21.0,99,77,69,170,175,Current,None,2025-08-07,2025-08-08,Diabetes,Cancer,D003,H04
+P0951,Patient_951,54,Male,185,72,34.5,128,110,83,132,168,Current,None,2025-08-08,2025-08-09,Diabetes,Diabetes,D037,H01
+P0952,Patient_952,78,Male,197,78,33.9,131,73,73,204,160,Current,Low,2025-08-09,2025-08-10,Heart Disease,Diabetes,D017,H05
+P0953,Patient_953,46,Female,142,87,21.6,145,60,77,208,159,Never,None,2025-08-10,2025-08-11,Diabetes,Heart Disease,D021,H02
+P0954,Patient_954,46,Male,150,105,31.9,120,62,71,149,177,Former,High,2025-08-11,2025-08-12,None,Hypertension,D036,H03
+P0955,Patient_955,28,Female,187,66,19.3,95,114,97,115,167,Current,High,2025-08-12,2025-08-13,Asthma,Heart Disease,D029,H04
+P0956,Patient_956,46,Female,164,48,39.0,171,75,87,175,96,Former,Moderate,2025-08-13,2025-08-14,Diabetes,Cancer,D036,H01
+P0957,Patient_957,77,Female,187,40,25.6,148,82,72,292,148,Never,Moderate,2025-08-14,2025-08-15,Diabetes,Heart Disease,D005,H12
+P0958,Patient_958,21,Female,149,71,20.4,110,73,89,176,173,Former,Moderate,2025-08-15,2025-08-16,None,Cancer,D040,H12
+P0959,Patient_959,22,Male,197,40,32.6,146,67,74,109,73,Current,High,2025-08-16,2025-08-17,Hypertension,Heart Disease,D043,H17
+P0960,Patient_960,45,Male,147,80,20.4,119,101,84,230,114,Never,High,2025-08-17,2025-08-18,Heart Disease,Heart Disease,D004,H07
+P0961,Patient_961,73,Female,181,42,20.1,135,77,90,129,76,Current,Low,2025-08-18,2025-08-19,Heart Disease,None,D049,H01
+P0962,Patient_962,26,Male,181,61,23.0,109,115,66,108,142,Current,Low,2025-08-19,2025-08-20,None,Cancer,D024,H17
+P0963,Patient_963,55,Female,160,42,27.0,159,64,99,198,137,Current,Low,2025-08-20,2025-08-21,Heart Disease,Hypertension,D007,H17
+P0964,Patient_964,25,Female,196,98,26.0,140,79,88,198,135,Former,Moderate,2025-08-21,2025-08-22,Diabetes,None,D029,H08
+P0965,Patient_965,48,Male,163,83,39.7,147,91,92,136,182,Former,None,2025-08-22,2025-08-23,Asthma,Heart Disease,D039,H17
+P0966,Patient_966,70,Female,144,117,24.2,102,65,72,271,195,Never,Moderate,2025-08-23,2025-08-24,Hypertension,None,D007,H06
+P0967,Patient_967,74,Female,141,116,29.3,169,114,83,273,176,Current,High,2025-08-24,2025-08-25,Asthma,Heart Disease,D015,H09
+P0968,Patient_968,28,Female,184,74,35.1,107,65,67,180,91,Former,None,2025-08-25,2025-08-26,Heart Disease,Heart Disease,D029,H09
+P0969,Patient_969,50,Female,160,42,31.6,164,118,69,269,70,Never,Low,2025-08-26,2025-08-27,Hypertension,Diabetes,D018,H14
+P0970,Patient_970,58,Male,162,47,20.2,138,84,86,274,105,Former,Low,2025-08-27,2025-08-28,Asthma,Diabetes,D019,H17
+P0971,Patient_971,42,Female,186,61,29.7,148,77,79,189,149,Current,Moderate,2025-08-28,2025-08-29,None,Heart Disease,D001,H07
+P0972,Patient_972,18,Male,164,60,23.2,136,88,74,288,161,Former,High,2025-08-29,2025-08-30,Hypertension,Cancer,D028,H17
+P0973,Patient_973,79,Male,140,53,20.1,132,77,80,180,139,Former,None,2025-08-30,2025-08-31,Hypertension,Hypertension,D015,H16
+P0974,Patient_974,22,Female,164,57,23.4,99,76,94,212,199,Former,Moderate,2025-08-31,2025-09-01,Hypertension,Diabetes,D003,H02
+P0975,Patient_975,48,Male,154,44,27.2,100,73,93,173,192,Never,None,2025-09-01,2025-09-02,Hypertension,None,D003,H11
+P0976,Patient_976,80,Male,171,60,23.5,114,84,92,232,125,Never,None,2025-09-02,2025-09-03,Asthma,None,D016,H04
+P0977,Patient_977,58,Male,143,69,23.0,109,97,68,270,181,Never,None,2025-09-03,2025-09-04,None,Heart Disease,D034,H07
+P0978,Patient_978,28,Female,146,115,27.0,157,116,76,246,74,Current,None,2025-09-04,2025-09-05,Asthma,Diabetes,D010,H12
+P0979,Patient_979,52,Female,161,91,37.5,119,88,78,202,182,Never,None,2025-09-05,2025-09-06,None,Cancer,D028,H09
+P0980,Patient_980,42,Male,150,80,24.3,159,89,64,119,81,Former,Low,2025-09-06,2025-09-07,None,Cancer,D049,H11
+P0981,Patient_981,37,Female,183,86,34.8,107,91,61,266,166,Current,High,2025-09-07,2025-09-08,Hypertension,Cancer,D049,H06
+P0982,Patient_982,28,Female,189,46,37.4,124,89,93,173,73,Never,Low,2025-09-08,2025-09-09,Heart Disease,Hypertension,D002,H12
+P0983,Patient_983,54,Female,150,87,21.9,177,117,67,294,128,Former,Low,2025-09-09,2025-09-10,Asthma,Hypertension,D017,H05
+P0984,Patient_984,66,Male,177,54,18.9,156,79,99,195,151,Current,Low,2025-09-10,2025-09-11,Asthma,Diabetes,D037,H09
+P0985,Patient_985,80,Female,164,66,37.6,103,88,64,278,176,Never,None,2025-09-11,2025-09-12,Hypertension,Hypertension,D030,H09
+P0986,Patient_986,43,Male,188,111,31.7,168,104,77,112,174,Never,High,2025-09-12,2025-09-13,None,None,D014,H03
+P0987,Patient_987,18,Male,182,108,26.0,101,75,92,205,125,Current,Low,2025-09-13,2025-09-14,Diabetes,Cancer,D040,H13
+P0988,Patient_988,25,Female,154,69,28.0,177,75,95,142,98,Never,Low,2025-09-14,2025-09-15,Heart Disease,None,D031,H05
+P0989,Patient_989,35,Male,194,77,23.7,162,86,88,292,185,Former,Low,2025-09-15,2025-09-16,Diabetes,Heart Disease,D013,H11
+P0990,Patient_990,36,Female,166,95,33.9,133,94,72,176,74,Former,None,2025-09-16,2025-09-17,Asthma,Heart Disease,D022,H04
+P0991,Patient_991,55,Female,185,53,24.0,165,70,97,240,107,Former,None,2025-09-17,2025-09-18,Hypertension,Heart Disease,D049,H01
+P0992,Patient_992,34,Female,157,78,30.1,167,86,90,196,152,Never,High,2025-09-18,2025-09-19,Heart Disease,None,D007,H01
+P0993,Patient_993,24,Male,178,109,32.6,127,60,70,206,155,Current,Low,2025-09-19,2025-09-20,None,Diabetes,D014,H03
+P0994,Patient_994,67,Female,183,44,38.7,130,109,83,287,124,Former,Low,2025-09-20,2025-09-21,Hypertension,Diabetes,D008,H19
+P0995,Patient_995,77,Female,157,44,34.2,105,97,80,175,74,Current,Moderate,2025-09-21,2025-09-22,Hypertension,Hypertension,D034,H15
+P0996,Patient_996,69,Female,166,60,30.3,170,108,66,239,182,Current,None,2025-09-22,2025-09-23,Asthma,Cancer,D008,H19
+P0997,Patient_997,35,Male,170,77,25.4,101,64,80,296,138,Former,Moderate,2025-09-23,2025-09-24,Heart Disease,Heart Disease,D002,H06
+P0998,Patient_998,69,Female,178,43,31.9,142,100,80,270,79,Former,High,2025-09-24,2025-09-25,Heart Disease,Diabetes,D043,H14
+P0999,Patient_999,42,Male,149,80,28.2,178,75,66,295,112,Never,High,2025-09-25,2025-09-26,Asthma,Hypertension,D009,H11
+P1000,Patient_1000,51,Male,178,71,28.6,153,116,85,227,84,Current,Moderate,2025-09-26,2025-09-27,Hypertension,Hypertension,D017,H01
